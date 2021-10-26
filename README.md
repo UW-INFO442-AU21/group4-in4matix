@@ -1,9 +1,9 @@
 # group4-in4matix
 
-Group Members: 
+Group Members:
 *
 *
-*
+* Rachel Kinkley
 *
 * Valerie Tse
 

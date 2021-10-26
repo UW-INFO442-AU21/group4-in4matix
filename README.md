@@ -1,8 +1,8 @@
 # group4-in4matix
 
 Group Members:
-*
 * Elise Adams
+* Zach Grande
 * Rachel Kinkley
 * Tiffany Tse
 * Valerie Tse

@@ -24,7 +24,7 @@ function MenuBar() {
 
               <Dropdown.Menu variant="dark">
                 <Dropdown.Item href="#perfectionist">Perfectionist</Dropdown.Item>
-                <Dropdown.Item href="#superperson">Superperson</Dropdown.Item>
+                <Dropdown.Item href="#superhero">Superhero</Dropdown.Item>
                 <Dropdown.Item href="#genius">Genius</Dropdown.Item>
                 <Dropdown.Item href="#soloist">Soloist</Dropdown.Item>
                 <Dropdown.Item href="#expert">Expert</Dropdown.Item>

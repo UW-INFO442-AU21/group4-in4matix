@@ -2,7 +2,7 @@
 
 Group Members:
 *
-*
+* Elise Adams
 * Rachel Kinkley
 * Tiffany Tse
 * Valerie Tse

@@ -22,7 +22,7 @@ function App() {
         <p>
           Psychololigsts have determined that there are five main archetypes of imposter syndrome. Be Incredible includes a breif quiz to help you identify which (if any) of the types apply to you. Take this quiz to learn more about yourself, the experiences of others like you, aand what you can do to combat  imposter syndrome.
         </p>
-        <p>
+        <p class='orange'>
           Take the quiz here *link to survey*
         </p>
       </div>

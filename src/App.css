@@ -48,3 +48,8 @@ p {
   text-align: center;
   margin: 12em;
 }
+
+/* makes text orange */
+p.orange {
+  color: chocolate;
+}

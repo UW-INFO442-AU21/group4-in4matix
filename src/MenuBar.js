@@ -34,7 +34,7 @@ function MenuBar() {
           </Nav>
         </Container>
       </Navbar>
-
+      
       {/* idea for a menu that can toggle visibility */}
       {/* <div className="imposter-menu">
         <Navbar bg="dark" variant="dark">

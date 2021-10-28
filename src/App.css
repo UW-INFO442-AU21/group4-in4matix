@@ -46,7 +46,8 @@ h1 {
 /* Paragraph style */
 p {
   text-align: center;
-  margin: 12em;
+  margin-left: 12em;
+  margin-right: 12em; 
 }
 
 /* makes text orange */

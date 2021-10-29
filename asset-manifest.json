@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/group4-in4matix/static/css/main.664c74f5.chunk.css",
-    "main.js": "/group4-in4matix/static/js/main.71af9101.chunk.js",
-    "main.js.map": "/group4-in4matix/static/js/main.71af9101.chunk.js.map",
-    "runtime-main.js": "/group4-in4matix/static/js/runtime-main.3bfb99ed.js",
-    "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.3bfb99ed.js.map",
+    "main.js": "/group4-in4matix/static/js/main.30cf3b26.chunk.js",
+    "main.js.map": "/group4-in4matix/static/js/main.30cf3b26.chunk.js.map",
+    "runtime-main.js": "/group4-in4matix/static/js/runtime-main.0971f0e8.js",
+    "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.0971f0e8.js.map",
     "static/css/2.0a9ec390.chunk.css": "/group4-in4matix/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.f8ed1590.chunk.js": "/group4-in4matix/static/js/2.f8ed1590.chunk.js",
-    "static/js/2.f8ed1590.chunk.js.map": "/group4-in4matix/static/js/2.f8ed1590.chunk.js.map",
-    "static/js/3.5eac388c.chunk.js": "/group4-in4matix/static/js/3.5eac388c.chunk.js",
-    "static/js/3.5eac388c.chunk.js.map": "/group4-in4matix/static/js/3.5eac388c.chunk.js.map",
+    "static/js/2.1c38fe03.chunk.js": "/group4-in4matix/static/js/2.1c38fe03.chunk.js",
+    "static/js/2.1c38fe03.chunk.js.map": "/group4-in4matix/static/js/2.1c38fe03.chunk.js.map",
+    "static/js/3.51cf04c5.chunk.js": "/group4-in4matix/static/js/3.51cf04c5.chunk.js",
+    "static/js/3.51cf04c5.chunk.js.map": "/group4-in4matix/static/js/3.51cf04c5.chunk.js.map",
     "index.html": "/group4-in4matix/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/group4-in4matix/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.664c74f5.chunk.css.map": "/group4-in4matix/static/css/main.664c74f5.chunk.css.map",
-    "static/js/2.f8ed1590.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.f8ed1590.chunk.js.LICENSE.txt",
+    "static/js/2.1c38fe03.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.1c38fe03.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/group4-in4matix/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3bfb99ed.js",
+    "static/js/runtime-main.0971f0e8.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.f8ed1590.chunk.js",
+    "static/js/2.1c38fe03.chunk.js",
     "static/css/main.664c74f5.chunk.css",
-    "static/js/main.71af9101.chunk.js"
+    "static/js/main.30cf3b26.chunk.js"
   ]
 }

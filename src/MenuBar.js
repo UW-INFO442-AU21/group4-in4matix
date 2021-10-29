@@ -12,7 +12,7 @@ function MenuBar() {
         <Container>
           <Navbar.Brand href="#home">Be Incredible</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <NavLink to="/" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Home</NavLink>
             <Nav.Link href="#quiz">Quiz</Nav.Link>
             <Nav.Link href="#results">Results</Nav.Link>
             {/* the nav link is replaced by a dropdown to navigate imposter types */}
@@ -24,12 +24,21 @@ function MenuBar() {
               </Dropdown.Toggle>
 
               <Dropdown.Menu variant="dark">
-                {/* <Dropdown.Item href="/type-1">Perfectionist</Dropdown.Item> */}
-                <NavLink to="/type-1" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Perfectionist</NavLink>
-                <Dropdown.Item href="#superhero">Superhero</Dropdown.Item>
-                <Dropdown.Item href="#genius">Genius</Dropdown.Item>
-                <Dropdown.Item href="#soloist">Soloist</Dropdown.Item>
-                <Dropdown.Item href="#expert">Expert</Dropdown.Item>
+                <Dropdown.Item>
+                  <NavLink to="/type-1" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Perfectionist</NavLink>
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <NavLink to="/type-2" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Superhero</NavLink>
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <NavLink to="/type-3" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Genius</NavLink>
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <NavLink to="/type-4" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Soloist</NavLink>
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <NavLink to="/type-5" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Expert</NavLink>
+                </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
 

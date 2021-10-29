@@ -4,6 +4,10 @@ import MenuBar from './MenuBar.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Switch, Route } from 'react-router-dom';
 import Type1 from './Type-1.js';
+import Type2 from './Type-2.js';
+import Type3 from './Type-3.js';
+import Type4 from './Type-4.js';
+import Type5 from './Type-5.js';
 
 function App() {
   return (
@@ -31,8 +35,12 @@ function App() {
 
       <Switch>
         <Route path="/type-1"> <Type1 /> </Route>
+        <Route path="/type-2"> <Type2 /> </Route>
+        <Route path="/type-3"> <Type3 /> </Route>
+        <Route path="/type-4"> <Type4 /> </Route>
+        <Route path="/type-5"> <Type5 /> </Route>
       </Switch>
-      
+
     </div>
 
     /*<div className="App">

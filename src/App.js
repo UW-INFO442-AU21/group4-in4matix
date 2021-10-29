@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import MenuBar from './MenuBar.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Switch, Route } from 'react-router-dom';
+import Type1 from './Type-1.js';
 
 function App() {
   return (
@@ -26,6 +28,11 @@ function App() {
           Take the quiz here *link to survey*
         </p>
       </div>
+
+      <Switch>
+        <Route path="/type-1"> <Type1 /> </Route>
+      </Switch>
+      
     </div>
 
     /*<div className="App">

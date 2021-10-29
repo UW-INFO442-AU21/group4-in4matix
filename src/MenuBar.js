@@ -2,6 +2,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Dropdown from 'react-bootstrap/Dropdown';
+import { NavLink } from 'react-router-dom';
 
 function MenuBar() {
   return (
@@ -23,7 +24,8 @@ function MenuBar() {
               </Dropdown.Toggle>
 
               <Dropdown.Menu variant="dark">
-                <Dropdown.Item href="#perfectionist">Perfectionist</Dropdown.Item>
+                {/* <Dropdown.Item href="/type-1">Perfectionist</Dropdown.Item> */}
+                <NavLink to="/type-1" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Perfectionist</NavLink>
                 <Dropdown.Item href="#superhero">Superhero</Dropdown.Item>
                 <Dropdown.Item href="#genius">Genius</Dropdown.Item>
                 <Dropdown.Item href="#soloist">Soloist</Dropdown.Item>

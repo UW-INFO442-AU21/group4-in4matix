@@ -16,8 +16,8 @@ function MenuBar() {
           <Navbar.Brand href="/group4-in4matix">Be Incredible</Navbar.Brand>
           <Nav className="me-auto">
             <NavLink to="/group4-in4matix" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Home</NavLink>
-            <Nav.Link href="#quiz">Quiz</Nav.Link>
-            <Nav.Link href="#results">Results</Nav.Link>
+            <NavLink to="/group4-in4matix/quiz" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Quiz</NavLink>
+            <NavLink to="/group4-in4matix/results" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Results</NavLink>
             {/* the nav link is replaced by a dropdown to navigate imposter types */}
             {/* <Nav.Link >Types of Imposter Syndrome</Nav.Link> */}
 

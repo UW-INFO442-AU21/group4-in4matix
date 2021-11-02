@@ -1,6 +1,8 @@
-# group4-in4matix: Be Incredible
+<h1 align="center">Be Incredible</h1>
 
-*Defeat Syndrome, Be Incredible*
+<h2 align="center"><em>Defeat Syndrome, Be Incredible</em></h2>
+
+<p align="center">group4-in4matix</p>
 
 ## Our Mission
 The goal of this application is to address feelings of imposter syndrome that women and minorities can experience in the tech field. To make the widely accepted variants of imposter syndrome seem less categorical, we have associated an Incredibles character with each archetype.

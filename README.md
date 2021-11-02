@@ -1,12 +1,25 @@
 # group4-in4matix: Be Incredible
 
+*Defeat Syndrome, Be Incredible*
+
 ## Our Mission
 The goal of this application is to address feelings of imposter syndrome that women and minorities can experience in the tech field. To make the widely accepted variants of imposter syndrome seem less categorical, we have associated an Incredibles character with each archetype.
 
 ## Features
-* 
+* Interactive quiz to assess user's imposter type
+* Visualized results to show cross section of types
+* Real-world stories from successful industry members
+* Tips for how to combat feelings of imposter syndrome
+* Fun Incredibles theme integration
 
-### Group Members
+## Types of Imposter Sydrome
+* The Perfectionist: Violet
+* The Solosit: Dash
+* The Expert: Elastagirl
+* The Superhero: Mr. Incredible
+* The Genius: Edna Mode
+
+## Group Members
 * Elise Adams
 * Zach Grande
 * Rachel Kinkley

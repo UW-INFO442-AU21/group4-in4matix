@@ -7,6 +7,7 @@
 <h2 style="color:red">Our Mission </h2>
 <!-- ## Our Mission -->
 The goal of this application is to address feelings of imposter syndrome that women and minorities can experience in the tech field. To make the widely accepted variants of imposter syndrome seem less categorical, we have associated an Incredibles character with each archetype.
+<p style="color:red">Hello</p>
 
 ## Features
 * Interactive quiz to assess user's imposter type
@@ -22,15 +23,15 @@ The goal of this application is to address feelings of imposter syndrome that wo
 * The Superhero: Mr. Incredible
 * The Genius: Edna Mode
 
+# GitHub Pages
+The published site can be viewed here: https://uw-info442-au21.github.io/group4-in4matix/
+
 ## Group Members
 * Elise Adams
 * Zach Grande
 * Rachel Kinkley
 * Tiffany Tse
 * Valerie Tse
-
-# GitHub Pages
-The published site can be viewed here: https://uw-info442-au21.github.io/group4-in4matix/
 
 # Development Instructions
 

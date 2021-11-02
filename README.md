@@ -9,8 +9,6 @@
 The goal of this application is to address feelings of imposter syndrome that women and minorities can experience in the tech field. To make the widely accepted variants of imposter syndrome seem less categorical, we have associated an Incredibles character with each archetype. 
 
 This solution works specifically to address the United Nations 5th Sustainable Development Goal: Gender Equality. Imposter syndrome can limit the opportunites women and minorities are comfortable pursuing in their work environment. 
-## Our Mission
-The goal of this application is to address feelings of imposter syndrome that women and minorities can experience in the tech field. To make the widely accepted variants of imposter syndrome seem less categorical, we have associated an Incredibles character with each archetype.
 
 ## Features
 * Interactive quiz to assess user's imposter type

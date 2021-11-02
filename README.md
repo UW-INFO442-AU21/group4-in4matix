@@ -4,10 +4,8 @@
 
 <p align="center">group4-in4matix</p>
 
-<h2 style="color:red">Our Mission </h2>
-<!-- ## Our Mission -->
+## Our Mission
 The goal of this application is to address feelings of imposter syndrome that women and minorities can experience in the tech field. To make the widely accepted variants of imposter syndrome seem less categorical, we have associated an Incredibles character with each archetype.
-<p style="color:red">Hello</p>
 
 ## Features
 * Interactive quiz to assess user's imposter type

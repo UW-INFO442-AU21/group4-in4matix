@@ -1,6 +1,12 @@
-# group4-in4matix
+# group4-in4matix: Be Incredible
 
-Group Members:
+## Our Mission
+The goal of this application is to address feelings of imposter syndrome that women and minorities can experience in the tech field. To make the widely accepted variants of imposter syndrome seem less categorical, we have associated an Incredibles character with each archetype.
+
+## Features
+* 
+
+### Group Members
 * Elise Adams
 * Zach Grande
 * Rachel Kinkley

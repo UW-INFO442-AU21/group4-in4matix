@@ -6,20 +6,20 @@
     "runtime-main.js": "/group4-in4matix/static/js/runtime-main.bed9848b.js",
     "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.bed9848b.js.map",
     "static/css/2.0a9ec390.chunk.css": "/group4-in4matix/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.1f6fb399.chunk.js": "/group4-in4matix/static/js/2.1f6fb399.chunk.js",
-    "static/js/2.1f6fb399.chunk.js.map": "/group4-in4matix/static/js/2.1f6fb399.chunk.js.map",
+    "static/js/2.08ad2cb1.chunk.js": "/group4-in4matix/static/js/2.08ad2cb1.chunk.js",
+    "static/js/2.08ad2cb1.chunk.js.map": "/group4-in4matix/static/js/2.08ad2cb1.chunk.js.map",
     "static/js/3.2b3aeeb0.chunk.js": "/group4-in4matix/static/js/3.2b3aeeb0.chunk.js",
     "static/js/3.2b3aeeb0.chunk.js.map": "/group4-in4matix/static/js/3.2b3aeeb0.chunk.js.map",
     "index.html": "/group4-in4matix/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/group4-in4matix/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.8823b804.chunk.css.map": "/group4-in4matix/static/css/main.8823b804.chunk.css.map",
-    "static/js/2.1f6fb399.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.1f6fb399.chunk.js.LICENSE.txt",
+    "static/js/2.08ad2cb1.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.08ad2cb1.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/group4-in4matix/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.bed9848b.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.1f6fb399.chunk.js",
+    "static/js/2.08ad2cb1.chunk.js",
     "static/css/main.8823b804.chunk.css",
     "static/js/main.7f80b08c.chunk.js"
   ]

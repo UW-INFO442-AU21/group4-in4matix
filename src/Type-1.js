@@ -1,6 +1,6 @@
 function Type1() {
   return(
-    <>
+    <div>
       <h1>This is Imposter Syndrome Type 1 - Perfectionist!</h1>
       <h2>Overview</h2>
         <p1>“The perfectionist represents a person with imposter syndrome that strives to be their absolute best, no matter the cost to their mental health. These individuals may be identified as typical “perfectionists” who set impossibly high standards for themselves.” RV</p1>
@@ -11,7 +11,7 @@ function Type1() {
         </ul>
       <h2>Resources</h2>
       <h2>Quotes</h2>
-    </>
+    </div>
   )
 }
 

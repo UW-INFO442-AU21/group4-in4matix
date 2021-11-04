@@ -12,7 +12,7 @@ function HomePage() {
       {/* <img className="animate__animated animate__rotateInDownLeft animate_slower jackjack" src={jackjack} alt="logo" /> */}
       <img className="jackjack" src={jackjack} alt="logo" />
       <p>
-        Imposter Syndrome describes feelings of unqualification and self-doubt regardless of experience and education. 
+        Imposter Syndrome describes feelings of inadequacy and self-doubt regardless of experience and education. 
         Our research suggests that this is a common feeliing for many, particularly for gender 
         minorities pursuing a career in tech. Be Incredible seeks to help users explore 
         their relationship with imposter syndrome and guides them in how they can mitigate the effects.

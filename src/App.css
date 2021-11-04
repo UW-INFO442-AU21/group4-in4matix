@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+/* Header style */
+h1 {
+  padding: 1em;
+  text-align: center;
+  color: rgb(200,0,0);
+}
+
+/* Paragraph style */
+p {
+  text-align: center;
+  margin-left: 12em;
+  margin-right: 12em; 
+}
+
+/* makes text orange */
+p.orange {
+  color: chocolate;
+}

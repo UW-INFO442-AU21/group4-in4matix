@@ -30,7 +30,8 @@ function Type1() {
           </li>
         </ul>
       <h2>Quotes</h2>
-        <p>So I have to admit that today, even 12 years after graduation [from Harvard], I’m still insecure about my
+        <p>
+          So I have to admit that today, even 12 years after graduation [from Harvard], I’m still insecure about my
            own worthiness. I have to remind myself today, You are here for a reason. Today, I feel much like I did 
            when I came to Harvard Yard as a freshman in 1999 … I felt like there had been some mistake — that I wasn’t
            smart enough to be in this company and that every time I opened my mouth I would have to prove I wasn’t 

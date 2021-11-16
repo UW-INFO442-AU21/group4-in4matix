@@ -40,7 +40,7 @@ function Type1() {
            — one that is free of the burden of knowing how things are supposed to be, a path that is defined by its own
            particular set of reasons.
         </p>
-        <p>— Natalie Portman, Harvard Commencement 2015</p>
+        <p> — Natalie Portman, Harvard Commencement 2015</p>
     </div>
   )
 }

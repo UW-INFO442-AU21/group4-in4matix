@@ -30,17 +30,17 @@ function Type1() {
           </li>
         </ul>
       <h2>Quotes</h2>
-        <p>
-          So I have to admit that today, even 12 years after graduation [from Harvard], I’m still insecure about my
+        <blockquote>
+          "So I have to admit that today, even 12 years after graduation [from Harvard], I’m still insecure about my
            own worthiness. I have to remind myself today, You are here for a reason. Today, I feel much like I did 
            when I came to Harvard Yard as a freshman in 1999 … I felt like there had been some mistake — that I wasn’t
            smart enough to be in this company and that every time I opened my mouth I would have to prove I wasn’t 
            just a dumb actress. … Sometimes your insecurities and your inexperience may lead you to embrace other 
            people’s expectations, standards, or values, but you can harness that inexperience to carve out your own path
            — one that is free of the burden of knowing how things are supposed to be, a path that is defined by its own
-           particular set of reasons.
-        </p>
-        <p> — Natalie Portman, Harvard Commencement 2015</p>
+           particular set of reasons."
+        </blockquote>
+        <cite>— Natalie Portman, Harvard Commencement 2015</cite>
     </div>
   )
 }

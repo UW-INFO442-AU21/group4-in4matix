@@ -26,7 +26,7 @@ function HomePage() {
         to you. Take this quiz to learn more about yourself, the experiences of others like you,
         and what you can do to combat imposter syndrome.
       </p>
-      <p class='orange'>
+      <p className='orange'>
         Take the quiz here *link to survey*
       </p>
     </div>

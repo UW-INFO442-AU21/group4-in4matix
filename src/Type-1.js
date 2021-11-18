@@ -1,11 +1,10 @@
 import perfectionist from './img/perfectionist.png';
-import Image from 'react-bootstrap/Image'
 
 function Type1() {
   return(
     <div>
       <h1>This is Imposter Syndrome Type 1 - Perfectionist!</h1>
-      <Image src={perfectionist} fluid />
+      <img className="page-image"src={perfectionist} alt="picture of pefectionist"/>
       <h2>Overview</h2>
         <p1>
           The perfectionist represents a person with imposter syndrome that strives to be their absolute 

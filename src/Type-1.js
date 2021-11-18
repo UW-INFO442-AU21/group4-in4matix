@@ -1,4 +1,4 @@
-import perfectionist from './img/perfectionist.png';
+import perfectionist from '././public/perfectionist.png';
 
 function Type1() {
   return(

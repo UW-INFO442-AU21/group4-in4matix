@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import MenuBar from './MenuBar.js';
 import 'bootstrap/dist/css/bootstrap.min.css';

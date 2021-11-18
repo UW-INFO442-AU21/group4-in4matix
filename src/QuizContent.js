@@ -16,7 +16,6 @@ function QuizContent() {
     var e = 0;
     var g = 0;
     var n = 0;
-
     
     for (var key in survey) {
       if(survey[key] == "P"){
@@ -33,11 +32,11 @@ function QuizContent() {
         n++;
       } 
     }
-    var results = [{"y":p,"indexLabel":"Perfectionist"},
-                  {"y":s,"indexLabel":"Soloist"},
-                  {"y":sh,"indexLabel":"Superhero"},
-                  {"y":e,"indexLabel":"Expert"},
-                  {"y":g,"indexLabel":"Genius"},
+    var results = [{"y":p,"indexLabel":"Violet"},
+                  {"y":s,"indexLabel":"Dash"},
+                  {"y":sh,"indexLabel":"Mr. Incredible"},
+                  {"y":e,"indexLabel":"Elastagirl"},
+                  {"y":g,"indexLabel":"Edna Mode"},
                   {"y":n,"indexLabel":"None"}];
     return results;
   }
@@ -50,15 +49,13 @@ function QuizContent() {
       console.log("Survey done!");
       // console.log(survey.data);
       // console.log(mySurvey);
-      console.log(surveyData); // same as survey.data, this is likely safer
+      // console.log(surveyData); // same as survey.data, this is likely safer
       var results = convertResults(sender.data);
       console.log(results)
     })
     
   return(
     <div>
-      <p>Information ABOUT the quiz (i.e. description) should be stored in QuizPage.js</p>
-
       <Survey.Survey model={survey} />
     </div>
   )

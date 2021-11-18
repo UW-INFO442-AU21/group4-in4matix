@@ -1,4 +1,4 @@
-import perfectionist from '././public/perfectionist.svg';
+import perfectionist from './perfectionist.svg';
 
 function Type1() {
   return(

@@ -18,15 +18,15 @@ function QuizContent() {
     var n = 0;
     
     for (var key in survey) {
-      if(survey[key] == "P"){
+      if(survey[key] === "P"){
         p++;
-      } else if (survey[key] == "S") {
+      } else if (survey[key] === "S") {
         s++;
-      } else if (survey[key] == "SH") {
+      } else if (survey[key] === "SH") {
         sh++;
-      } else if (survey[key] == "E") {
+      } else if (survey[key] === "E") {
         e++;
-      } else if (survey[key] == "g") {
+      } else if (survey[key] === "G") {
         g++;
       } else {
         n++;

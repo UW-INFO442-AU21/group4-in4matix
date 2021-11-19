@@ -42,9 +42,26 @@ The published site can be viewed here: https://uw-info442-au21.github.io/group4-
 
 `Ctrl + C` to cancel
 
-## Deploy build to GitHub Pages
+## Deploy Build to GitHub Pages
 
 `npm run deploy`
+
+## Make a New Branch
+
+Do these two steps in sequence to (1) make a new branch and (2) publish it to GitHub.
+
+`git checkout -b <branch-name>`
+
+`git push --set-upstream origin <branch-name>`
+
+Edit the branch as much as you'd like, push/pull freely, then when work is done make a Pull Request on the GitHub site.
+
+### Double Checking the New Branch
+
+If you run `git status`, the terminal should say
+
+`On branch <branch-name>`  
+`Your branch is up to date with 'origin/<branch-name>'.`
 
 # References
 Parr family photos retrieved from https://www.deviantart.com/arnumdrusk/art/The-Parrs-Incredibles-minimal-305511343.

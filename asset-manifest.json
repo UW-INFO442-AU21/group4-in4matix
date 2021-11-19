@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/group4-in4matix/static/css/main.4d44d6b6.chunk.css",
-    "main.js": "/group4-in4matix/static/js/main.5bfff6b9.chunk.js",
-    "main.js.map": "/group4-in4matix/static/js/main.5bfff6b9.chunk.js.map",
-    "runtime-main.js": "/group4-in4matix/static/js/runtime-main.7367ddc3.js",
-    "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.7367ddc3.js.map",
+    "main.css": "/group4-in4matix/static/css/main.853956c5.chunk.css",
+    "main.js": "/group4-in4matix/static/js/main.00a35559.chunk.js",
+    "main.js.map": "/group4-in4matix/static/js/main.00a35559.chunk.js.map",
+    "runtime-main.js": "/group4-in4matix/static/js/runtime-main.77ce3bba.js",
+    "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.77ce3bba.js.map",
     "static/css/2.1c40fa89.chunk.css": "/group4-in4matix/static/css/2.1c40fa89.chunk.css",
-    "static/js/2.6393ec3d.chunk.js": "/group4-in4matix/static/js/2.6393ec3d.chunk.js",
-    "static/js/2.6393ec3d.chunk.js.map": "/group4-in4matix/static/js/2.6393ec3d.chunk.js.map",
-    "static/js/3.ddfb21ae.chunk.js": "/group4-in4matix/static/js/3.ddfb21ae.chunk.js",
-    "static/js/3.ddfb21ae.chunk.js.map": "/group4-in4matix/static/js/3.ddfb21ae.chunk.js.map",
+    "static/js/2.79dd0d47.chunk.js": "/group4-in4matix/static/js/2.79dd0d47.chunk.js",
+    "static/js/2.79dd0d47.chunk.js.map": "/group4-in4matix/static/js/2.79dd0d47.chunk.js.map",
+    "static/js/3.fdaa6b5e.chunk.js": "/group4-in4matix/static/js/3.fdaa6b5e.chunk.js",
+    "static/js/3.fdaa6b5e.chunk.js.map": "/group4-in4matix/static/js/3.fdaa6b5e.chunk.js.map",
     "index.html": "/group4-in4matix/index.html",
     "static/css/2.1c40fa89.chunk.css.map": "/group4-in4matix/static/css/2.1c40fa89.chunk.css.map",
-    "static/css/main.4d44d6b6.chunk.css.map": "/group4-in4matix/static/css/main.4d44d6b6.chunk.css.map",
-    "static/js/2.6393ec3d.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.6393ec3d.chunk.js.LICENSE.txt"
+    "static/css/main.853956c5.chunk.css.map": "/group4-in4matix/static/css/main.853956c5.chunk.css.map",
+    "static/js/2.79dd0d47.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.79dd0d47.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7367ddc3.js",
+    "static/js/runtime-main.77ce3bba.js",
     "static/css/2.1c40fa89.chunk.css",
-    "static/js/2.6393ec3d.chunk.js",
-    "static/css/main.4d44d6b6.chunk.css",
-    "static/js/main.5bfff6b9.chunk.js"
+    "static/js/2.79dd0d47.chunk.js",
+    "static/css/main.853956c5.chunk.css",
+    "static/js/main.00a35559.chunk.js"
   ]
 }

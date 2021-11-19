@@ -8,6 +8,14 @@
   background-color: rgb(170, 10, 0);
 }
 
-.color-dropdown {
-  color: rgb(244, 185, 0);
+#dropdown-button-dark-example1 {
+  background-color: rgb(244, 185, 0);
 }
+
+.active {
+  text-decoration: underline;
+}
+
+/* .navbar-nav {
+  background-color: blue;
+} */

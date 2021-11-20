@@ -6,8 +6,8 @@ import Button from 'react-bootstrap/Button';
 function HomePage() {
   return(
     <div>
-      <img className="jackjack-left" src={jackjack} alt="logo" />
-      <img className="jackjack-right" src={jackjack} alt="logo" />
+      <img className="jackjack left" src={jackjack} alt="logo" />
+      <img className="jackjack right" src={jackjack} alt="logo" />
       <h1>
         Mission Statement
       </h1>

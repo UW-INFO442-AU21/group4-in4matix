@@ -26,12 +26,12 @@ function MenuBar() {
                 Types of Imposter Syndrome
               </Dropdown.Toggle>
 
-              <Dropdown.Menu variant="dark">
+              <Dropdown.Menu className="dropdown" variant="dark">
                 <Dropdown.Item>
                   {/* <NavLink to="/group4-in4matix/type-1" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Perfectionist</NavLink> */}
                   <NavLink to="/group4-in4matix/type-1" className="nav-link" id="nav-li" activeClassName={"activeLink"}>
                     <img className="dropdown-image" src={violet} alt="violet" />
-                    <p>Perfectionist</p>
+                    <p className="dropdown-text">Perfectionist</p>
                   </NavLink>
                 </Dropdown.Item>
                 <Dropdown.Item>

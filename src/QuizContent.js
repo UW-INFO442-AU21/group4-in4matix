@@ -53,9 +53,10 @@ function QuizContent(props) {
       // console.log(survey.data);
       // console.log(mySurvey);
       // console.log(surveyData); // same as survey.data, this is likely safer
-      var results = convertResults(sender.data);
+      // var results = convertResults(sender.data);
+      var results = convertResults(surveyData);
       console.log(results);
-      setResults(surveyData);
+      setResults(results);
     })
     
   return(

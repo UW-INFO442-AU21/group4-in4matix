@@ -14,6 +14,7 @@ function ResultsPage(props) {
       <p>Since we won't display much data besides the visualization itself, I opted for a single file to manage this.</p>
 
       <p>The user has {results ? 'taken' : 'not taken'} the quiz.</p>
+      <p>{JSON.stringify(results)}</p>
     </div>
   )
 }

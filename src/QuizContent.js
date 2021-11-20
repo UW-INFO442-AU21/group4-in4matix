@@ -44,6 +44,14 @@ function QuizContent(props) {
     return results;
   }
 
+  const handleSubmission = (results) => {
+    // console.log(event);
+    // let newResults = 
+    setResults(results);
+    console.log(survey);
+    // survey.setCompleted(true);
+  }
+
   survey
     .onComplete
     .add(function (sender) {
@@ -56,7 +64,7 @@ function QuizContent(props) {
       // var results = convertResults(sender.data);
       var results = convertResults(surveyData);
       console.log(results);
-      setResults(results);
+      handleSubmission(results);
     })
     
   return(

@@ -1,5 +1,9 @@
+import dash from './img/dash.png';
 import jackjack from './img/jack-jack.png';
+import mrIncredible from './img/mr-incredible.png';
+import elastigirl from './img/elastigirl.png';
 import violet from './img/violet.png';
+import edna from './img/edna.png';
 import './MenuBar.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
@@ -31,20 +35,36 @@ function MenuBar() {
                   {/* <NavLink to="/group4-in4matix/type-1" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Perfectionist</NavLink> */}
                   <NavLink to="/group4-in4matix/type-1" className="nav-link" id="nav-li" activeClassName={"activeLink"}>
                     <img className="dropdown-image" src={violet} alt="violet" />
-                    <p className="dropdown-text">Perfectionist</p>
+                    <p className="dropdown-text">Violet</p>
                   </NavLink>
                 </Dropdown.Item>
                 <Dropdown.Item>
-                  <NavLink to="/group4-in4matix/type-2" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Superhero</NavLink>
+                  {/* <NavLink to="/group4-in4matix/type-2" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Superhero</NavLink> */}
+                  <NavLink to="/group4-in4matix/type-2" className="nav-link" id="nav-li" activeClassName={"activeLink"}>
+                    <img className="dropdown-image" src={mrIncredible} alt="mr-incredible" />
+                    <p className="dropdown-text">Mr. Incredible</p>
+                  </NavLink>
                 </Dropdown.Item>
                 <Dropdown.Item>
-                  <NavLink to="/group4-in4matix/type-3" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Genius</NavLink>
+                  {/* <NavLink to="/group4-in4matix/type-3" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Genius</NavLink> */}
+                  <NavLink to="/group4-in4matix/type-3" className="nav-link" id="nav-li" activeClassName={"activeLink"}>
+                    <img className="dropdown-image" src={edna} alt="edna" />
+                    <p className="dropdown-text">Genius</p>
+                  </NavLink>
                 </Dropdown.Item>
                 <Dropdown.Item>
-                  <NavLink to="/group4-in4matix/type-4" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Soloist</NavLink>
+                  {/* <NavLink to="/group4-in4matix/type-4" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Soloist</NavLink> */}
+                  <NavLink to="/group4-in4matix/type-4" className="nav-link" id="nav-li" activeClassName={"activeLink"}>
+                    <img className="dropdown-image" src={dash} alt="dash" />
+                    <p className="dropdown-text">Dash</p>
+                  </NavLink>
                 </Dropdown.Item>
                 <Dropdown.Item>
-                  <NavLink to="/group4-in4matix/type-5" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Expert</NavLink>
+                  {/* <NavLink to="/group4-in4matix/type-5" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Expert</NavLink> */}
+                  <NavLink to="/group4-in4matix/type-5" className="nav-link" id="nav-li" activeClassName={"activeLink"}>
+                    <img className="dropdown-image" src={elastigirl} alt="elastigirl" />
+                    <p className="dropdown-text">Elastigirl</p>
+                  </NavLink>
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>

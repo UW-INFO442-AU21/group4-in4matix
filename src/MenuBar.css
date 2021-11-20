@@ -1,4 +1,5 @@
-.nav-image, .dropdown-image {
+/* .nav-image, .dropdown-image { */
+.nav-image {
   text-align: center;
   width: 3rem;
   height: auto;
@@ -14,6 +15,19 @@
 
 .active {
   text-decoration: underline;
+}
+
+.dropdown {
+  width: 200px;
+}
+
+.dropdown-image {
+  width: 3rem;
+}
+
+.dropdown-text {
+  float: right;
+  vertical-align: middle;
 }
 
 /* .navbar-nav {

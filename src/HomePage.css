@@ -1,16 +1,26 @@
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
 .quiz-link {
   /* display: flex; */
   justify-content: center;
   align-items: center;
 }
 
-.jackjack-left {
+.jackjack {
   position:absolute;
   display: flex;
   /* flex: 1; */
   left: 0;
-  /* width: 100px; */
+  width: 100px;
   /* height: 6rem; */
+}
+  
+.left {
   opacity: 0.5;
   animation: jackjack-animation-left 5s linear infinite alternate;
 }
@@ -26,13 +36,7 @@
   }
 }
 
-.jackjack-right {
-  position:absolute;
-  display: flex;
-  /* flex: 1; */
-  left: 0;
-  /* width: 100px; */
-  /* height: 6rem; */
+.right {
   opacity: 0.5;
   animation: jackjack-animation-right 5s linear infinite alternate;
 }

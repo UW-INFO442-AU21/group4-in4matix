@@ -1,4 +1,5 @@
 import jackjack from './img/jack-jack.png';
+import incrediblesLogo from './img/incredibles-logo.png';
 import './HomePage.css';
 import 'animate.css';
 import Button from 'react-bootstrap/Button';
@@ -27,6 +28,7 @@ function HomePage() {
         to you. Take this quiz to learn more about yourself, the experiences of others like you,
         and what you can do to combat imposter syndrome.
       </p>
+      <img className="logo" src={incrediblesLogo} alt="incredibles-logo" />
       <br></br>
       <br></br>
       <div className="text-center">

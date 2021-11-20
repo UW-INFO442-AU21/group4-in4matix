@@ -1,4 +1,9 @@
-function ResultsPage() {
+function ResultsPage(props) {
+
+  let results = props.results;
+
+  console.log("The results are:", results);
+
   return(
     <div>
       <h1>WORK IN PROGRESS - CONTENT TO COME</h1>

@@ -11,6 +11,8 @@ function QuizContent(props) {
 
   var survey = new Survey.Model(surveyJSON);
 
+  var results = {};
+
   // takes complete survey and converts to an array that's compatible with Canvas.js
   function convertResults(survey) {
     var p = 0;
@@ -44,12 +46,10 @@ function QuizContent(props) {
     return results;
   }
 
-  const handleSubmission = (results) => {
+  const handleSubmission = (event) => {
     // console.log(event);
-    // let newResults = 
-    setResults(results);
-    console.log(survey);
-    // survey.setCompleted(true);
+    setResults(results); // this line triggers an infinte recursive loop
+    // console.log(survey);
   }
 
   survey
@@ -62,9 +62,9 @@ function QuizContent(props) {
       // console.log(mySurvey);
       // console.log(surveyData); // same as survey.data, this is likely safer
       // var results = convertResults(sender.data);
-      var results = convertResults(surveyData);
+      results = convertResults(surveyData);
       console.log(results);
-      handleSubmission(results);
+      handleSubmission();
     })
     
   return(

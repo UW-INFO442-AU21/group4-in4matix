@@ -12,6 +12,8 @@ function ResultsPage(props) {
       <p>The code that builds the visualization can be stored here, or we can keep it in another file (like QuizPage vs. QuizContent).</p>
 
       <p>Since we won't display much data besides the visualization itself, I opted for a single file to manage this.</p>
+
+      <p>The user has {results ? 'taken' : 'not taken'} the quiz.</p>
     </div>
   )
 }

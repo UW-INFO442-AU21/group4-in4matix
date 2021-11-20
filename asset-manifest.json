@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/group4-in4matix/static/css/main.853956c5.chunk.css",
-    "main.js": "/group4-in4matix/static/js/main.00a35559.chunk.js",
-    "main.js.map": "/group4-in4matix/static/js/main.00a35559.chunk.js.map",
+    "main.css": "/group4-in4matix/static/css/main.1e8b85b6.chunk.css",
+    "main.js": "/group4-in4matix/static/js/main.53e22b8d.chunk.js",
+    "main.js.map": "/group4-in4matix/static/js/main.53e22b8d.chunk.js.map",
     "runtime-main.js": "/group4-in4matix/static/js/runtime-main.77ce3bba.js",
     "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.77ce3bba.js.map",
     "static/css/2.1c40fa89.chunk.css": "/group4-in4matix/static/css/2.1c40fa89.chunk.css",
@@ -12,14 +12,18 @@
     "static/js/3.fdaa6b5e.chunk.js.map": "/group4-in4matix/static/js/3.fdaa6b5e.chunk.js.map",
     "index.html": "/group4-in4matix/index.html",
     "static/css/2.1c40fa89.chunk.css.map": "/group4-in4matix/static/css/2.1c40fa89.chunk.css.map",
-    "static/css/main.853956c5.chunk.css.map": "/group4-in4matix/static/css/main.853956c5.chunk.css.map",
-    "static/js/2.79dd0d47.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.79dd0d47.chunk.js.LICENSE.txt"
+    "static/css/main.1e8b85b6.chunk.css.map": "/group4-in4matix/static/css/main.1e8b85b6.chunk.css.map",
+    "static/js/2.79dd0d47.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.79dd0d47.chunk.js.LICENSE.txt",
+    "static/media/edna.bd487fea.png": "/group4-in4matix/static/media/edna.bd487fea.png",
+    "static/media/elastigirl.65f91d7e.png": "/group4-in4matix/static/media/elastigirl.65f91d7e.png",
+    "static/media/incredibles-logo.f36f86c3.png": "/group4-in4matix/static/media/incredibles-logo.f36f86c3.png",
+    "static/media/mr-incredible.acebcb64.png": "/group4-in4matix/static/media/mr-incredible.acebcb64.png"
   },
   "entrypoints": [
     "static/js/runtime-main.77ce3bba.js",
     "static/css/2.1c40fa89.chunk.css",
     "static/js/2.79dd0d47.chunk.js",
-    "static/css/main.853956c5.chunk.css",
-    "static/js/main.00a35559.chunk.js"
+    "static/css/main.1e8b85b6.chunk.css",
+    "static/js/main.53e22b8d.chunk.js"
   ]
 }

@@ -4,6 +4,15 @@ function ResultsPage(props) {
 
   console.log("The results are:", results);
 
+  function hasTakenQuiz() {
+    for (var i = 0; i < results.length; i++) {
+      if (results[i].y !== 0) {
+        return true;
+      }
+    }
+    return false;
+  }
+
   return(
     <div>
       <h1>WORK IN PROGRESS - CONTENT TO COME</h1>
@@ -13,8 +22,8 @@ function ResultsPage(props) {
 
       <p>Since we won't display much data besides the visualization itself, I opted for a single file to manage this.</p>
 
-      <p>The user has {results ? 'taken' : 'not taken'} the quiz.</p>
-      <p>{results ? JSON.stringify(results) : ''}</p>
+      <p>The user has {hasTakenQuiz() ? 'taken' : 'not taken'} the quiz.</p>
+      <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p>
     </div>
   )
 }

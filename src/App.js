@@ -17,7 +17,12 @@ function App() {
   // This state variable manages the user's quiz results.
   // The variable is updated in QuizContent.js
   // The variable's contents are used in ResultsPage.js
-  const [results, setResults] = useState(null);
+  const [results, setResults] = useState([{"y":0,"indexLabel":"Violet"},
+                                          {"y":0,"indexLabel":"Dash"},
+                                          {"y":0,"indexLabel":"Mr. Incredible"},
+                                          {"y":0,"indexLabel":"Elastagirl"},
+                                          {"y":0,"indexLabel":"Edna Mode"},
+                                          {"y":0,"indexLabel":"None"}]);
 
   return (
     <div>

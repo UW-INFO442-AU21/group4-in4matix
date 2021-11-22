@@ -38,28 +38,32 @@ function QuizContent(props) {
       } 
     }
 
-    // create a copy of state and update elements as needed
-    // item: the current element of the results array
-    // index: the current entry number we are looking at
-    const resultsCopy = results.map((item, index) => {
-      // update current counts with new results
-      if (item.indexLabel === "Violet") {
-        item.y = p;
-      } else if (item.indexLabel === "Dash") {
-        item.y = s;
-      } else if (item.indexLabel === "Mr. Incredible") {
-        item.y = sh;
-      } else if (item.indexLabel === "Elastagirl") {
-        item.y = e;
-      } else if (item.indexLabel === "Edna Mode") {
-        item.y = g;
-      } else {
-        item.y = n;
-      }
-      return item;
-    })
+    // delayed computation
+    const handleResults = (event) => {
+      // create a copy of state and update elements as needed
+      // item: the current element of the results array
+      // index: the current entry number we are looking at
+      const resultsCopy = results.map((item) => {
+        // update current counts with new results
+        if (item.indexLabel === "Violet") {
+          item.y = p;
+        } else if (item.indexLabel === "Dash") {
+          item.y = s;
+        } else if (item.indexLabel === "Mr. Incredible") {
+          item.y = sh;
+        } else if (item.indexLabel === "Elastagirl") {
+          item.y = e;
+        } else if (item.indexLabel === "Edna Mode") {
+          item.y = g;
+        } else {
+          item.y = n;
+        }
+        return item;
+      })
 
-    setResults(resultsCopy);
+      setResults(resultsCopy);
+
+    }
 
     var currentResults = [{"y":p,"indexLabel":"Violet"},
                           {"y":s,"indexLabel":"Dash"},
@@ -67,6 +71,8 @@ function QuizContent(props) {
                           {"y":e,"indexLabel":"Elastagirl"},
                           {"y":g,"indexLabel":"Edna Mode"},
                           {"y":n,"indexLabel":"None"}];
+
+    handleResults(); // final step: update state
 
     return currentResults;
   }

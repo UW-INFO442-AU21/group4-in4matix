@@ -29,7 +29,7 @@ function App() {
       <MenuBar />
 
       <Switch>
-        <Route path="/group4-in4matix/quiz"> <QuizPage setResults={setResults} /> </Route>
+        <Route path="/group4-in4matix/quiz"> <QuizPage results={results} setResults={setResults} /> </Route>
         <Route path="/group4-in4matix/results"> <ResultsPage results={results} /> </Route>
         <Route path="/group4-in4matix/type-1"> <Type1 /> </Route>
         <Route path="/group4-in4matix/type-2"> <Type2 /> </Route>

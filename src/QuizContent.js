@@ -3,7 +3,8 @@ import "survey-react/survey.css";
 
 function QuizContent(props) {
 
-  let setResults = props.setResults;
+  const results = props.results;
+  const setResults = props.setResults;
 
   Survey.StylesManager.applyTheme("bootstrap");
 
@@ -11,10 +12,9 @@ function QuizContent(props) {
 
   var survey = new Survey.Model(surveyJSON);
 
-  // var results = {};
-
   // takes complete survey and converts to an array that's compatible with Canvas.js
-  function convertResults(survey) {
+  function convertResults(survey, results) {
+
     var p = 0;
     var s = 0;
     var sh = 0;
@@ -37,14 +37,38 @@ function QuizContent(props) {
         n++;
       } 
     }
-    var results = [{"y":p,"indexLabel":"Violet"},
-                  {"y":s,"indexLabel":"Dash"},
-                  {"y":sh,"indexLabel":"Mr. Incredible"},
-                  {"y":e,"indexLabel":"Elastagirl"},
-                  {"y":g,"indexLabel":"Edna Mode"},
-                  {"y":n,"indexLabel":"None"}];
-    setResults(results);
-    return results;
+
+    // create a copy of state and update elements as needed
+    // item: the current element of the results array
+    // index: the current entry number we are looking at
+    const resultsCopy = results.map((item, index) => {
+      // update current counts with new results
+      if (item.indexLabel === "Violet") {
+        item.y = p;
+      } else if (item.indexLabel === "Dash") {
+        item.y = s;
+      } else if (item.indexLabel === "Mr. Incredible") {
+        item.y = sh;
+      } else if (item.indexLabel === "Elastagirl") {
+        item.y = e;
+      } else if (item.indexLabel === "Edna Mode") {
+        item.y = g;
+      } else {
+        item.y = n;
+      }
+      return item;
+    })
+
+    setResults(resultsCopy);
+
+    var currentResults = [{"y":p,"indexLabel":"Violet"},
+                          {"y":s,"indexLabel":"Dash"},
+                          {"y":sh,"indexLabel":"Mr. Incredible"},
+                          {"y":e,"indexLabel":"Elastagirl"},
+                          {"y":g,"indexLabel":"Edna Mode"},
+                          {"y":n,"indexLabel":"None"}];
+
+    return currentResults;
   }
 
   /*const handleSubmission = (event) => {
@@ -63,7 +87,7 @@ function QuizContent(props) {
       // console.log(mySurvey);
       // console.log(surveyData); // same as survey.data, this is likely safer
       // var results = convertResults(sender.data);
-      var quizResults = convertResults(surveyData);
+      var quizResults = convertResults(surveyData, results);
       console.log(quizResults);
       // handleSubmission();
     })

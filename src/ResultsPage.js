@@ -1,6 +1,7 @@
 // import { Canvas } from 'canvasjs';
-var CanvasJSReact = require('./assets/canvasjs.react');
-var CanvasJS = CanvasJSReact.CanvasJS;
+// var CanvasJSReact = require('./assets/canvasjs.react');
+import CanvasJSReact from './assets/canvasjs.react';
+// var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 function ResultsPage(props) {
@@ -18,21 +19,46 @@ function ResultsPage(props) {
     return false;
   }
 
+  // function renderChart() {
+  //   var chart = new CanvasJS.Chart("chartContainer", {
+  //     animationEnabled: true,
+  //     title: {
+  //       text: "Imposter Syndrome Results"
+  //     },
+  //     data: [{
+  //       type: "pie",
+  //       startAngle: 240,
+  //       yValueFormatString: "##0.00\"%\"",
+  //       indexLabel: "{label} {y}",
+  //       dataPoints: results
+  //     }]
+  //   });
+  //   chart.render();
+  // }
+
   function renderChart() {
-    var chart = new CanvasJS.Chart("chartContainer", {
-      animationEnabled: true,
-      title: {
-        text: "Imposter Syndrome Results"
-      },
-      data: [{
-        type: "pie",
-        startAngle: 240,
-        yValueFormatString: "##0.00\"%\"",
-        indexLabel: "{label} {y}",
-        dataPoints: results
-      }]
-    });
-    chart.render();
+    const options = {
+			exportEnabled: true,
+			animationEnabled: true,
+			title: {
+				text: "Imposter Syndrome Results"
+			},
+			data: [{
+				type: "pie",
+				startAngle: 75,
+				toolTipContent: "<b>{label}</b>: {y}%",
+				showInLegend: "true",
+				legendText: "{label}",
+				indexLabelFontSize: 16,
+				indexLabel: "{label} - {y}%",
+				dataPoints: results
+			}]
+		}
+    return(
+      <div>
+        <CanvasJSChart options={options} />
+      </div>
+    )
   }
   
   function contentToRender() {

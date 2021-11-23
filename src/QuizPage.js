@@ -1,5 +1,6 @@
 import QuizContent from './QuizContent.js';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 function QuizPage(props) {
 
@@ -26,6 +27,10 @@ function QuizPage(props) {
         <div>
           <p>Thank you for taking our quiz. Would you like to take it again?</p>
           <Button variant="primary" onClick={resetResults}>Retake quiz</Button>
+          <Link className="btn btn-success" role="button" to="/group4-in4matix/results"> 
+                View Results
+              </Link>
+
         </div>
         );
     } else {

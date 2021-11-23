@@ -1,3 +1,5 @@
+import { Canvas } from 'canvasjs';
+
 function ResultsPage(props) {
 
   let results = props.results;
@@ -12,6 +14,24 @@ function ResultsPage(props) {
     }
     return false;
   }
+
+  function renderChart() {
+    var chart = new Canvas.Chart("chartContainer", {
+      animationEnabled: true,
+      title: {
+        text: "Imposter Syndrome Results"
+      },
+      data: [{
+        type: "pie",
+        startAngle: 240,
+        yValueFormatString: "##0.00\"%\"",
+        indexLabel: "{label} {y}",
+        dataPoints: results
+      }]
+    });
+    chart.render();
+}
+  
 
   return(
     <div>

@@ -1,4 +1,18 @@
-function ResultsPage() {
+function ResultsPage(props) {
+
+  let results = props.results;
+
+  console.log("The results are:", results);
+
+  function hasTakenQuiz() {
+    for (var i = 0; i < results.length; i++) {
+      if (results[i].y !== 0) {
+        return true;
+      }
+    }
+    return false;
+  }
+
   return(
     <div>
       <h1>WORK IN PROGRESS - CONTENT TO COME</h1>
@@ -7,6 +21,9 @@ function ResultsPage() {
       <p>The code that builds the visualization can be stored here, or we can keep it in another file (like QuizPage vs. QuizContent).</p>
 
       <p>Since we won't display much data besides the visualization itself, I opted for a single file to manage this.</p>
+
+      <p>The user has {hasTakenQuiz() ? 'taken' : 'not taken'} the quiz.</p>
+      <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p>
     </div>
   )
 }

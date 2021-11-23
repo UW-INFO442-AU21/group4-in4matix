@@ -35,8 +35,8 @@ function HomePage() {
       <br></br>
       <br></br>
       <div className="text-center">
-        <Link className="btn btn-primary" role="button" to="/group4-in4matix/quiz"> 
-          Take the quiz here!!!
+        <Link className="btn btn-danger" role="button" to="/group4-in4matix/quiz"> 
+          Take the quiz here!
         </Link>
       </div>
     </div>

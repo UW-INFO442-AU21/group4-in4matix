@@ -1,9 +1,9 @@
-import dash from './img/dash.png';
-import jackjack from './img/jack-jack.png';
-import mrIncredible from './img/mr-incredible.png';
-import elastigirl from './img/elastigirl.png';
-import violet from './img/violet.png';
-import edna from './img/edna.png';
+import dash from './img/dash.svg';
+import jackjack from './img/jack-jack.svg';
+import mrIncredible from './img/mr-incredible.svg';
+import elastigirl from './img/elastigirl.svg';
+import violet from './img/violet.svg';
+import edna from './img/edna.svg';
 import './MenuBar.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';

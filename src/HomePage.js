@@ -3,7 +3,7 @@ import incrediblesLogo from './img/incredibles-logo.png';
 import './HomePage.css';
 import 'animate.css';
 import Button from 'react-bootstrap/Button';
-import elastigirl from './img/elastigirl.svg';
+// import elastigirl from './img/elastigirl.svg';
 import { Link } from 'react-router-dom';
 
 function HomePage() {

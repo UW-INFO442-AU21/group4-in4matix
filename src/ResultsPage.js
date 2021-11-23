@@ -1,4 +1,7 @@
-import { Canvas } from 'canvasjs';
+// import { Canvas } from 'canvasjs';
+var CanvasJSReact = require('./assets/canvasjs.react');
+var CanvasJS = CanvasJSReact.CanvasJS;
+var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 function ResultsPage(props) {
 
@@ -16,7 +19,7 @@ function ResultsPage(props) {
   }
 
   function renderChart() {
-    var chart = new Canvas.Chart("chartContainer", {
+    var chart = new CanvasJS.Chart("chartContainer", {
       animationEnabled: true,
       title: {
         text: "Imposter Syndrome Results"
@@ -30,8 +33,23 @@ function ResultsPage(props) {
       }]
     });
     chart.render();
-}
+  }
   
+  function contentToRender() {
+    if (hasTakenQuiz()) {
+      return(
+        <div>
+          <p>The user has taken the quiz.</p>
+          <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p>
+          {renderChart()}
+        </div>
+        );
+    } else {
+      return(
+        <p>The user has not taken the quiz.</p>
+      );
+    }
+  }
 
   return(
     <div>
@@ -42,8 +60,10 @@ function ResultsPage(props) {
 
       <p>Since we won't display much data besides the visualization itself, I opted for a single file to manage this.</p>
 
-      <p>The user has {hasTakenQuiz() ? 'taken' : 'not taken'} the quiz.</p>
-      <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p>
+      {contentToRender()}
+
+      {/* <p>The user has {hasTakenQuiz() ? 'taken' : 'not taken'} the quiz.</p>
+      <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p> */}
     </div>
   )
 }

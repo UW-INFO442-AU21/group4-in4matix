@@ -4,6 +4,7 @@ import './HomePage.css';
 import 'animate.css';
 import Button from 'react-bootstrap/Button';
 import elastigirl from './img/elastigirl.svg';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
   return(
@@ -33,7 +34,9 @@ function HomePage() {
       <br></br>
       <br></br>
       <div className="text-center">
-        <Button variant="primary" href="/group4-in4matix/quiz">Take the quiz here!!</Button>
+        <Link className="btn btn-primary" role="button" to="/group4-in4matix/quiz"> 
+          Take the quiz here!!!
+        </Link>
       </div>
     </div>
   )

@@ -1,30 +1,29 @@
 {
   "files": {
     "main.css": "/group4-in4matix/static/css/main.a3f85ca1.chunk.css",
-    "main.js": "/group4-in4matix/static/js/main.7e499781.chunk.js",
-    "main.js.map": "/group4-in4matix/static/js/main.7e499781.chunk.js.map",
-    "runtime-main.js": "/group4-in4matix/static/js/runtime-main.77ce3bba.js",
-    "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.77ce3bba.js.map",
+    "main.js": "/group4-in4matix/static/js/main.f644089b.chunk.js",
+    "main.js.map": "/group4-in4matix/static/js/main.f644089b.chunk.js.map",
+    "runtime-main.js": "/group4-in4matix/static/js/runtime-main.b26d92f6.js",
+    "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.b26d92f6.js.map",
     "static/css/2.1c40fa89.chunk.css": "/group4-in4matix/static/css/2.1c40fa89.chunk.css",
-    "static/js/2.ab3ede47.chunk.js": "/group4-in4matix/static/js/2.ab3ede47.chunk.js",
-    "static/js/2.ab3ede47.chunk.js.map": "/group4-in4matix/static/js/2.ab3ede47.chunk.js.map",
-    "static/js/3.fdaa6b5e.chunk.js": "/group4-in4matix/static/js/3.fdaa6b5e.chunk.js",
-    "static/js/3.fdaa6b5e.chunk.js.map": "/group4-in4matix/static/js/3.fdaa6b5e.chunk.js.map",
+    "static/js/2.2916b809.chunk.js": "/group4-in4matix/static/js/2.2916b809.chunk.js",
+    "static/js/2.2916b809.chunk.js.map": "/group4-in4matix/static/js/2.2916b809.chunk.js.map",
+    "static/js/3.0ad37c83.chunk.js": "/group4-in4matix/static/js/3.0ad37c83.chunk.js",
+    "static/js/3.0ad37c83.chunk.js.map": "/group4-in4matix/static/js/3.0ad37c83.chunk.js.map",
     "index.html": "/group4-in4matix/index.html",
     "static/css/2.1c40fa89.chunk.css.map": "/group4-in4matix/static/css/2.1c40fa89.chunk.css.map",
     "static/css/main.a3f85ca1.chunk.css.map": "/group4-in4matix/static/css/main.a3f85ca1.chunk.css.map",
-    "static/js/2.ab3ede47.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.ab3ede47.chunk.js.LICENSE.txt",
+    "static/js/2.2916b809.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.2916b809.chunk.js.LICENSE.txt",
     "static/media/edna.bd487fea.png": "/group4-in4matix/static/media/edna.bd487fea.png",
-    "static/media/elastigirl.22ca08ab.svg": "/group4-in4matix/static/media/elastigirl.22ca08ab.svg",
     "static/media/elastigirl.65f91d7e.png": "/group4-in4matix/static/media/elastigirl.65f91d7e.png",
     "static/media/incredibles-logo.f36f86c3.png": "/group4-in4matix/static/media/incredibles-logo.f36f86c3.png",
     "static/media/mr-incredible.acebcb64.png": "/group4-in4matix/static/media/mr-incredible.acebcb64.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.77ce3bba.js",
+    "static/js/runtime-main.b26d92f6.js",
     "static/css/2.1c40fa89.chunk.css",
-    "static/js/2.ab3ede47.chunk.js",
+    "static/js/2.2916b809.chunk.js",
     "static/css/main.a3f85ca1.chunk.css",
-    "static/js/main.7e499781.chunk.js"
+    "static/js/main.f644089b.chunk.js"
   ]
 }

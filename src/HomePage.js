@@ -33,7 +33,7 @@ function HomePage() {
       <br></br>
       <br></br>
       <div className="text-center">
-        <Button variant="primary" href="/group4-in4matix/quiz">Take the quiz here</Button>
+        <Button variant="primary" href="./group4-in4matix/quiz">Take the quiz here!</Button>
       </div>
     </div>
   )

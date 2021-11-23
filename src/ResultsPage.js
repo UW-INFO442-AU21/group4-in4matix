@@ -1,3 +1,9 @@
+// import { Canvas } from 'canvasjs';
+// var CanvasJSReact = require('./assets/canvasjs.react');
+import CanvasJSReact from './assets/canvasjs.react';
+// var CanvasJS = CanvasJSReact.CanvasJS;
+var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+
 function ResultsPage(props) {
 
   let results = props.results;
@@ -13,6 +19,64 @@ function ResultsPage(props) {
     return false;
   }
 
+  // function renderChart() {
+  //   var chart = new CanvasJS.Chart("chartContainer", {
+  //     animationEnabled: true,
+  //     title: {
+  //       text: "Imposter Syndrome Results"
+  //     },
+  //     data: [{
+  //       type: "pie",
+  //       startAngle: 240,
+  //       yValueFormatString: "##0.00\"%\"",
+  //       indexLabel: "{label} {y}",
+  //       dataPoints: results
+  //     }]
+  //   });
+  //   chart.render();
+  // }
+
+  function renderChart() {
+    const options = {
+			exportEnabled: true,
+			animationEnabled: true,
+			title: {
+				text: "Imposter Syndrome Results"
+			},
+			data: [{
+				type: "pie",
+				startAngle: 75,
+				toolTipContent: "<b>{label}</b>: {y}%",
+				showInLegend: "true",
+				legendText: "{label}",
+				indexLabelFontSize: 16,
+				indexLabel: "{label} - {y}%",
+				dataPoints: results
+			}]
+		}
+    return(
+      <div>
+        <CanvasJSChart options={options} />
+      </div>
+    )
+  }
+  
+  function contentToRender() {
+    if (hasTakenQuiz()) {
+      return(
+        <div>
+          <p>The user has taken the quiz.</p>
+          <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p>
+          {renderChart()}
+        </div>
+        );
+    } else {
+      return(
+        <p>The user has not taken the quiz.</p>
+      );
+    }
+  }
+
   return(
     <div>
       <h1>WORK IN PROGRESS - CONTENT TO COME</h1>
@@ -22,8 +86,10 @@ function ResultsPage(props) {
 
       <p>Since we won't display much data besides the visualization itself, I opted for a single file to manage this.</p>
 
-      <p>The user has {hasTakenQuiz() ? 'taken' : 'not taken'} the quiz.</p>
-      <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p>
+      {contentToRender()}
+
+      {/* <p>The user has {hasTakenQuiz() ? 'taken' : 'not taken'} the quiz.</p>
+      <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p> */}
     </div>
   )
 }

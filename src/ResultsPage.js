@@ -1,6 +1,7 @@
 // import { Canvas } from 'canvasjs';
 // var CanvasJSReact = require('./assets/canvasjs.react');
 import CanvasJSReact from './assets/canvasjs.react';
+import { Link } from 'react-router-dom';
 // var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
@@ -72,7 +73,12 @@ function ResultsPage(props) {
         );
     } else {
       return(
-        <p>The user has not taken the quiz.</p>
+        <div>
+          <p>The user has not taken the quiz.</p>
+          <Link className="btn btn-danger" role="button" to="/group4-in4matix/quiz">
+                  Take the Quiz!
+          </Link>
+        </div>
       );
     }
   }

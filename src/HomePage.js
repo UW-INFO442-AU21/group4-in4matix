@@ -2,8 +2,6 @@ import jackjack from './img/jack-jack.svg';
 import incrediblesLogo from './img/incredibles-logo.svg';
 import './HomePage.css';
 import 'animate.css';
-import Button from 'react-bootstrap/Button';
-import elastigirl from './img/elastigirl.svg';
 import { Link } from 'react-router-dom';
 
 function HomePage() {
@@ -31,7 +29,6 @@ function HomePage() {
         and what you can do to combat imposter syndrome.
       </p>
       <img className="logo" src={incrediblesLogo} alt="incredibles-logo" />
-      <img className="logo" src={elastigirl} alt="elastigirl" />
       <br></br>
       <br></br>
       <div className="text-center">

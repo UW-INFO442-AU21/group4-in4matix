@@ -1,3 +1,5 @@
+import './Types.css';
+
 function Type5() {
   return(
     <div>
@@ -5,7 +7,7 @@ function Type5() {
       <h2>Overview</h2>
         <p1>
         </p1>
-        <div>
+        <div className="float-video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       <h2>General Tips</h2>

@@ -24,17 +24,17 @@ function QuizContent(props) {
     
     for (var key in survey) {
       if(survey[key] === "P"){
-        p++;
+        p+=14.29;
       } else if (survey[key] === "S") {
-        s++;
+        s+=14.29;
       } else if (survey[key] === "SH") {
-        sh++;
+        sh+=14.29;
       } else if (survey[key] === "E") {
-        e++;
+        e+=14.29;
       } else if (survey[key] === "G") {
-        g++;
+        g+=14.29;
       } else {
-        n++;
+        n+=14.29;
       } 
     }
 
@@ -47,16 +47,22 @@ function QuizContent(props) {
         // update current counts with new results
         if (item.indexLabel === "Violet") {
           item.y = p;
+          item.name = "Perfectionist";
         } else if (item.indexLabel === "Dash") {
           item.y = s;
+          item.name = "Soloist";
         } else if (item.indexLabel === "Mr. Incredible") {
           item.y = sh;
+          item.name = "Superhuman";
         } else if (item.indexLabel === "Elastagirl") {
           item.y = e;
+          item.name = "Expert";
         } else if (item.indexLabel === "Edna Mode") {
           item.y = g;
+          item.name = "Genius";
         } else {
           item.y = n;
+          item.name = "N/A";
         }
         return item;
       })
@@ -65,12 +71,12 @@ function QuizContent(props) {
 
     }
 
-    var currentResults = [{"y":p,"indexLabel":"Violet"},
-                          {"y":s,"indexLabel":"Dash"},
-                          {"y":sh,"indexLabel":"Mr. Incredible"},
-                          {"y":e,"indexLabel":"Elastagirl"},
-                          {"y":g,"indexLabel":"Edna Mode"},
-                          {"y":n,"indexLabel":"None"}];
+    var currentResults = [{"y":p,"indexLabel":"Violet","name":"Perfectionist"},
+                          {"y":s,"indexLabel":"Dash", "name":"Soloist"},
+                          {"y":sh,"indexLabel":"Mr. Incredible", "name":"Superhuman"},
+                          {"y":e,"indexLabel":"Elastagirl", "name":"Expert"},
+                          {"y":g,"indexLabel":"Edna Mode","name":"Genius"},
+                          {"y":n,"indexLabel":"None", "name":"N/A"}];
 
     handleResults(); // final step: update state
 

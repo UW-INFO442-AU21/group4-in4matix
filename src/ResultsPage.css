@@ -1,0 +1,22 @@
+
+.flex-container { /* my flexbox container class */
+    display: flex;
+    padding: 0.5em;
+}
+
+.pieChart{
+    flex-grow: 2
+}
+
+.results-page{
+    margin: 1.5em
+}
+
+
+
+/* .flex-item {
+    /*flex-grow: 1; /* get 1 share of extra space */
+    /*flex-shrink: 0;  do not shrink if items overflow container */
+   /*flex-basis: 33%;  take up 33% of parent initially 
+} */
+

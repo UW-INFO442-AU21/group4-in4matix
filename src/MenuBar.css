@@ -10,7 +10,8 @@
 }
 
 #dropdown-button-dark-example1 {
-  background-color: rgb(244, 185, 0);
+  background-color: black;
+  color: white;
 }
 
 .active {

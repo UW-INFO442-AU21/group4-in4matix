@@ -1,7 +1,7 @@
 function Type1() {
   return(
     <div>
-      <h1>Violet Imposter Syndrome</h1>
+      <h1>Violet - The Perfectionist</h1>
       <h2>Overview</h2>
         <p1>The perfectionist represents a person with imposter syndrome that strives to be their absolute 
           best, no matter the cost to their mental health. These individuals may be identified as typical 

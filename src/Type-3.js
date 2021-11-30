@@ -1,7 +1,7 @@
 function Type3() {
   return(
     <div>
-      <h1>Edna Mode Imposter Syndrome</h1>
+      <h1>Edna Mode - The Genius</h1>
       <h2>Overview</h2>
         <p1>
         </p1>

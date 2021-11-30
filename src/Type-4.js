@@ -1,7 +1,7 @@
 function Type4() {
   return(
     <div>
-      <h1>Dash Imposter Syndrome</h1>
+      <h1>Dash - The Soloist</h1>
       <h2>Overview</h2>
         <p1>
         </p1>

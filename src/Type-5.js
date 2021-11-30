@@ -1,7 +1,7 @@
 function Type5() {
   return(
     <div>
-      <h1>Elastagirl Imposter Syndrome</h1>
+      <h1>Elastigirl - The Expert</h1>
       <h2>Overview</h2>
         <p1>
         </p1>

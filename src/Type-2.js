@@ -1,7 +1,7 @@
 function Type2() {
   return(
     <div>
-      <h1>Mr Incredible Imposter Syndrome</h1>
+      <h1>Mr Incredible - The Superhero</h1>
       <h2>Overview</h2>
         <p1>
         </p1>

@@ -53,7 +53,6 @@ function contentToRender(results) {
             {renderChart(results)}
           </div>
           <div className="flex-item top-result">
-            <h2> top result text will go here</h2> {/* show top result and link to page */}
             <p>{topResult(results)}</p>
             {/* <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p> */}
           </div>
@@ -63,7 +62,7 @@ function contentToRender(results) {
   } else {
     return(
       <div>
-        <p>The user has not taken the quiz.</p>
+        <p>You have not taken the quiz.</p>
         <Link className="btn btn-danger" role="button" to="/group4-in4matix/quiz">
                 Take the Quiz!
         </Link>
@@ -72,7 +71,11 @@ function contentToRender(results) {
   }
 }
 
+// This function returns the character that the user most aligns with,
+// based on how they answered the questionnaire. Ties are broken in
+// no particular order, only one character alignment is given.
 function topResult(results) {
+  // find the name of the top result
   var topResult = results[0].y;
   var topName = results[0].indexLabel;
   for (var i = 0; i < results.length; i++) {
@@ -81,9 +84,28 @@ function topResult(results) {
       topName = results[i].indexLabel;
     }
   }
+
+  // generate a path to the imposter page for the top character
+  var path = "/group4-in4matix/";
+  if (topName === "Violet") {
+    path += "type-1";
+  } else if (topName === "Mr. Incredible") {
+    path += "type-2";
+  } else if (topName === "Edna Mode") {
+    path += "type-3";
+  } else if (topName === "Dash") {
+    path += "type-4";
+  } else {
+    path += "type-5";
+  }
+
   return(
     <div>
-      <p>{topName}</p>
+      <h2>You have the most in common with {topName}!</h2>
+      <p>Click the button to see how you and {topName} can work to defeat imposter syndrome.</p>
+      <Link className="btn btn-primary" role="button" to={path}> 
+        {topName}
+      </Link>
     </div>
   )
 }

@@ -49,12 +49,17 @@ function contentToRender(results) {
         <p>To learn more about each imposter syndrome type, please visit the corresponding tab in the menu bar.</p>
 
         <div className="flex-container">
-          <div className="flex-item pieChart">{renderChart(results)}</div>
-          <h2 className="flex-item top-result"> top result text will go here</h2> {/* show top result and link to page */}
-          {/* <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p> */}
+          <div className="flex-item pieChart">
+            {renderChart(results)}
+          </div>
+          <div className="flex-item top-result">
+            <h2> top result text will go here</h2> {/* show top result and link to page */}
+            <p>{topResult(results)}</p>
+            {/* <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p> */}
+          </div>
         </div>
       </div>
-      );
+    );
   } else {
     return(
       <div>
@@ -67,14 +72,28 @@ function contentToRender(results) {
   }
 }
 
+function topResult(results) {
+  var topResult = results[0].y;
+  var topName = results[0].indexLabel;
+  for (var i = 0; i < results.length; i++) {
+    if (results[i].y > topResult) {
+      topResult = results[i].y;
+      topName = results[i].indexLabel;
+    }
+  }
+  return(
+    <div>
+      <p>{topName}</p>
+    </div>
+  )
+}
+
 function ResultsPage(props) {
 
   let results = props.results;
 
   console.log("The results are:", results);
-
   
-
   // function renderChart() {
   //   var chart = new CanvasJS.Chart("chartContainer", {
   //     animationEnabled: true,
@@ -92,15 +111,9 @@ function ResultsPage(props) {
   //   chart.render();
   // }
 
-  
-
   //toolTipContent: "<a href='\"'http://apple.com'\"' target='\"'_blank'\"' >{indexLabel} ({name}) </a>",
 
   //way to dynamically render top result and link to page
-
-
-  
-  
 
   return(
     <div className="results-page">

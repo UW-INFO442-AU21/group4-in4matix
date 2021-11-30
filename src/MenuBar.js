@@ -49,7 +49,7 @@ function MenuBar() {
                   {/* <NavLink to="/group4-in4matix/type-3" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Genius</NavLink> */}
                   <NavLink to="/group4-in4matix/type-3" className="nav-link" id="nav-li" activeClassName={"activeLink"}>
                     <img className="dropdown-image" src={edna} alt="edna" />
-                    <p className="dropdown-text">Genius</p>
+                    <p className="dropdown-text">Edna Mode</p>
                   </NavLink>
                 </Dropdown.Item>
                 <Dropdown.Item>

@@ -1,13 +1,15 @@
+import './Types.css';
+
 function Type1() {
   return(
     <div>
-      <h1>Violet Imposter Syndrome</h1>
+      <h1>Violet - The Perfectionist</h1>
       <h2>Overview</h2>
         <p1>The perfectionist represents a person with imposter syndrome that strives to be their absolute 
           best, no matter the cost to their mental health. These individuals may be identified as typical 
           “perfectionists” who set impossibly high standards for themselves.
         </p1>
-        <div>
+        <div className="float-video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       <h2>General Tips</h2>

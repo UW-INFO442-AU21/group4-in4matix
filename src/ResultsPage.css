@@ -12,7 +12,7 @@ h2, p{
 
 .pieChart{
     flex-shrink: 0; /* do not shrink if items overflow container */
-    flex-basis: 66%; /* take up 33% of parent initially */
+    flex-basis: 66%; /* take up 66% of parent initially */
 }
 
 @media (min-width:786px){
@@ -20,7 +20,7 @@ h2, p{
         flex-direction: row;
     }
 
-    p{
+    h2, p{
         text-align: left;
     }
 

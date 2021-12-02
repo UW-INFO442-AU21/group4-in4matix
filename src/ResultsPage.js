@@ -96,12 +96,14 @@ function topResult(results) {
   }
 
   return(
-    <div>
-      <h2>You have the most in common with {topName}!</h2>
+    <div className="text-center">
+      <h2>You got {topName}!</h2>
       <p>Click the button to see how you and {topName} can work to defeat imposter syndrome. To learn more about the other imposter types, go to the corresponding tab on the dropdown menu.</p>
-      <Link className="btn btn-primary result-btn" role="button" to={path}> 
+      <div >
+      <Link className="btn btn-primary" role="button" to={path}> 
         {topName}
       </Link>
+      </div>
     </div>
   )
 }

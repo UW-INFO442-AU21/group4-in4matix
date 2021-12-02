@@ -103,7 +103,7 @@ function topResult(results) {
     <div  className="flex-item top-result">
       <h2>You have the most in common with {topName}!</h2>
       <p>Click the button to see how you and {topName} can work to defeat imposter syndrome.</p>
-      <Link aria-label="Information about imposter syndrome type you identify with most" className="btn btn-success" role="button" to={path}> 
+      <Link aria-label="Information about {topName}" className="btn btn-success" role="button" to={path}> 
         {topName}
       </Link>
     </div>

@@ -1,11 +1,14 @@
+import perfectionist from './img/perfectionist.svg';
 import './Types.css';
 
 function Type1() {
   return(
     <div>
       <h1>Violet - The Perfectionist</h1>
+      <img className="page-image" src={perfectionist} alt="picture of pefectionist"/>
       <h2>Overview</h2>
-        <p1>The perfectionist represents a person with imposter syndrome that strives to be their absolute 
+        <p1>
+          The perfectionist represents a person with imposter syndrome that strives to be their absolute 
           best, no matter the cost to their mental health. These individuals may be identified as typical 
           “perfectionists” who set impossibly high standards for themselves.
         </p1>
@@ -14,13 +17,15 @@ function Type1() {
         </div>
       <h2>General Tips</h2>
         <ul>
-          <li>For this type, success is rarely satisfying because they believe they could’ve done even better. 
+          <li>
+            For this type, success is rarely satisfying because they believe they could’ve done even better. 
             But that’s neither productive nor healthy. Owning and celebrating achievements is essential if you 
             want to avoid burnout, find contentment, and cultivate self-confidence.
           </li>
           <li>Learn to take your mistakes in stride, viewing them as a natural part of the process.
           </li>
-          <li>In addition, push yourself to act before you’re ready. Force yourself to start the project you’ve
+          <li>
+            In addition, push yourself to act before you’re ready. Force yourself to start the project you’ve
             been planning for months. Truth is, there will never be the “perfect time,” and your work will never
             be 100% flawless. The sooner you’re able to accept that, the better off you’ll be.
           </li>
@@ -35,17 +40,19 @@ function Type1() {
           </li>
         </ul>
       <h2>Quotes</h2>
-        <p>
-          So I have to admit that today, even 12 years after graduation [from Harvard], I’m still insecure about my
+        <blockquote>
+          "So I have to admit that today, even 12 years after graduation [from Harvard], I’m still insecure about my
            own worthiness. I have to remind myself today, You are here for a reason. Today, I feel much like I did 
            when I came to Harvard Yard as a freshman in 1999 … I felt like there had been some mistake — that I wasn’t
            smart enough to be in this company and that every time I opened my mouth I would have to prove I wasn’t 
            just a dumb actress. … Sometimes your insecurities and your inexperience may lead you to embrace other 
            people’s expectations, standards, or values, but you can harness that inexperience to carve out your own path
            — one that is free of the burden of knowing how things are supposed to be, a path that is defined by its own
-           particular set of reasons.
-        </p>
-        <p>— Natalie Portman, Harvard Commencement 2015</p>
+           particular set of reasons."
+        </blockquote>
+        <cite>
+          — Natalie Portman, Harvard Commencement 2015
+        </cite>
     </div>
   )
 }

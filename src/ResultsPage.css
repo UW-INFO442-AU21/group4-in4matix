@@ -5,12 +5,21 @@
 }
 
 .pieChart{
-    flex-grow: 2
+    flex-grow: 2;
 }
 
 .results-page{
-    margin: 1.5em
+    margin: 1.5em;
 }
+
+/* .top-result { 
+    flex-wrap: wrap;
+    flex-shrink: 3;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    flex-basis: 50%;
+    flex-shrink: 30;
+} */
 
 
 

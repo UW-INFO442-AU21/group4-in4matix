@@ -1,5 +1,6 @@
 import * as Survey from "survey-react";
 import "survey-react/survey.css";
+import './Survey.css';
 
 function QuizContent(props) {
 

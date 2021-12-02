@@ -52,8 +52,8 @@ function contentToRender(results) {
           <div className="flex-item pieChart">
             {renderChart(results)}
           </div>
-          <div className="flex-item top-result">
-            <p>{topResult(results)}</p>
+          <div>
+            {topResult(results)}
             {/* <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p> */}
           </div>
         </div>
@@ -63,7 +63,7 @@ function contentToRender(results) {
     return(
       <div>
         <p>You have not taken the quiz.</p>
-        <Link className="btn btn-danger" role="button" to="/group4-in4matix/quiz">
+        <Link className="btn btn-success" role="button" to="/group4-in4matix/quiz">
                 Take the Quiz!
         </Link>
       </div>
@@ -100,10 +100,10 @@ function topResult(results) {
   }
 
   return(
-    <div>
+    <div  className="flex-item top-result">
       <h2>You have the most in common with {topName}!</h2>
       <p>Click the button to see how you and {topName} can work to defeat imposter syndrome.</p>
-      <Link className="btn btn-primary" role="button" to={path}> 
+      <Link className="btn btn-success" role="button" to={path}> 
         {topName}
       </Link>
     </div>

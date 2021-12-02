@@ -27,7 +27,8 @@ function MenuBar() {
 
             <Dropdown>
               <Dropdown.Toggle className="color-dropdown" id="dropdown-button-dark-example1" variant="secondary">
-                Types of Imposter Syndrome
+                <div className="dropdown-name-full">Types of Imposter Syndrome</div>
+                <div className="dropdown-name-short">Types</div>
               </Dropdown.Toggle>
 
               <Dropdown.Menu className="dropdown" variant="dark">

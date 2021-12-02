@@ -1,0 +1,38 @@
+
+.content{
+    padding: 0.5rem 1rem;
+    margin: 0.5rem auto 1rem;
+
+}
+
+.content p{
+    font-size: 16px;
+}
+
+.content h1{
+    font-size: 2em;
+}
+
+.content h2{
+    font-size: 1.5em;
+}
+
+
+@media (min-width: 768px) {
+
+    .content {
+        padding: 1rem 2rem;
+        margin: 1rem auto 2rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .content {
+        padding: 1.5rem 3rem;
+        margin: 1.5rem auto 3rem;
+    }
+
+}
+  

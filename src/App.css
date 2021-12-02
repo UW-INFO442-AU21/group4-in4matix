@@ -36,18 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+/*open sans for p, quote, content
+Raleway header and labels*/
+
+
 /* Header style */
 h1 {
   padding: 1em;
   text-align: center;
   color: rgb(200,0,0);
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Paragraph style */
 p.center {
   text-align: center;
-  margin-left: 8em;
-  margin-right: 8em; 
+  margin-left: auto;
+  margin-right: auto; 
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* makes text orange */
@@ -73,3 +80,4 @@ footer {
   text-align: center;
   opacity: 0.5;
 }
+

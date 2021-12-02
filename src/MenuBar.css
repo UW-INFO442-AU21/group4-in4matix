@@ -7,6 +7,7 @@
 
 .color-nav {
   background-color: rgb(170, 10, 0);
+  /* width: 200vw; */
 }
 
 #dropdown-button-dark-example1 {
@@ -19,18 +20,51 @@
 }
 
 .dropdown {
-  width: 200px;
+  width: auto;
 }
 
-.dropdown-image {
-  width: 3rem;
+.dropdown-name-full{
+  display: none;
+}
+
+.dropdown-image{
+  display: none;
 }
 
 .dropdown-text {
-  float: right;
+  float: left;
   vertical-align: middle;
 }
 
 /* .navbar-nav {
   background-color: blue;
 } */
+
+@media (min-width:480px) {
+
+
+}
+
+@media (min-width:768px) {
+  .dropdown {
+    width: 200px;
+  }
+  
+  .dropdown-name-short{
+    display: none;
+  }
+  .dropdown-name-full{
+    display:inline;
+  }
+
+  .dropdown-image {
+    display: inline;
+    width: 3rem;
+  }
+
+  .dropdown-text {
+    float: right;
+    vertical-align: middle;
+  }
+
+}

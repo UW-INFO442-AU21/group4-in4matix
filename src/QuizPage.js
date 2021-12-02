@@ -1,6 +1,8 @@
 import QuizContent from './QuizContent.js';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
+import './QuizPage.css';
+import './Responsive.css';
 
 function QuizPage(props) {
 
@@ -25,12 +27,13 @@ function QuizPage(props) {
     if (hasTakenQuiz()) {
       return(
         <div>
-          <p>Thank you for taking our quiz. Would you like to take it again?</p>
-          <Button variant="warning" onClick={resetResults}>Retake quiz</Button>
-          <Link className="btn btn-danger" role="button" to="/group4-in4matix/results"> 
-                View Results
-              </Link>
-
+          <p className="center">Thank you for taking our quiz. Would you like to take it again?</p>
+          <div className="btns">
+            <Button className="btn-pad" variant="warning" onClick={resetResults}>Retake quiz</Button>
+            <Link className="btn btn-danger btn-pad" role="button" to="/group4-in4matix/results"> 
+                  View Results
+            </Link>
+            </div>
         </div>
         );
     } else {
@@ -42,8 +45,10 @@ function QuizPage(props) {
 
   return(
     <div>
-      <h1>Which Type of Imposter Syndrome Do You Have?</h1>
-      <p className="center">Complete this quick, 7-question quiz to determine which type of imposter syndrome you have, if any. You may find that multiple answers to one question apply to you. We encourage you to select the option that most aligns with your typical patterns.</p>
+      <div className="content">
+        <h1>Which Type of Imposter Syndrome Do You Have?</h1>
+        <p className="instructions">Complete this quick, 7-question quiz to determine which type of imposter syndrome you have, if any. You may find that multiple answers to one question apply to you. We encourage you to select the option that most aligns with your typical patterns.</p>
+      </div>
 
       {contentToRender()}
 

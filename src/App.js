@@ -43,7 +43,7 @@ function App() {
         </Switch>
       </div>
 
-      <footer>
+      <footer aria-label="Be Incredible metadata">
         <p>&copy; 2021 University of Washington. INFO 442: IN4MATIX</p>
       </footer>
     </div>

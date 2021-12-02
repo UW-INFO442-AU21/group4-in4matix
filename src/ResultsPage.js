@@ -63,7 +63,7 @@ function contentToRender(results) {
     return(
       <div>
         <p>You have not taken the quiz.</p>
-        <Link className="btn btn-danger" role="button" to="/group4-in4matix/quiz">
+        <Link aria-label="Take the quiz" className="btn btn-danger" role="button" to="/group4-in4matix/quiz">
                 Take the Quiz!
         </Link>
       </div>
@@ -103,7 +103,7 @@ function topResult(results) {
     <div>
       <h2>You have the most in common with {topName}!</h2>
       <p>Click the button to see how you and {topName} can work to defeat imposter syndrome.</p>
-      <Link className="btn btn-primary" role="button" to={path}> 
+      <Link aria-label="Information about imposter syndrome type you identify with most" className="btn btn-primary" role="button" to={path}> 
         {topName}
       </Link>
     </div>

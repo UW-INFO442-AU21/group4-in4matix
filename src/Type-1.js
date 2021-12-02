@@ -1,9 +1,10 @@
 import perfectionist from './img/perfectionist.svg';
+import './Types.css';
 
 function Type1() {
   return(
     <div>
-      <h1>This is Imposter Syndrome Type 1 - Perfectionist!</h1>
+      <h1>Violet - The Perfectionist</h1>
       <img className="page-image" src={perfectionist} alt="picture of pefectionist"/>
       <h2>Overview</h2>
         <p1>
@@ -11,6 +12,9 @@ function Type1() {
           best, no matter the cost to their mental health. These individuals may be identified as typical 
           “perfectionists” who set impossibly high standards for themselves.
         </p1>
+        <div className="float-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       <h2>General Tips</h2>
         <ul>
           <li>

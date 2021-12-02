@@ -1,4 +1,5 @@
-.nav-image, .dropdown-image {
+/* .nav-image, .dropdown-image { */
+.nav-image {
   text-align: center;
   width: 3rem;
   height: auto;
@@ -8,6 +9,28 @@
   background-color: rgb(170, 10, 0);
 }
 
-.color-dropdown {
-  color: rgb(244, 185, 0);
+#dropdown-button-dark-example1 {
+  background-color: black;
+  color: white;
 }
+
+.active {
+  text-decoration: underline;
+}
+
+.dropdown {
+  width: 200px;
+}
+
+.dropdown-image {
+  width: 3rem;
+}
+
+.dropdown-text {
+  float: right;
+  vertical-align: middle;
+}
+
+/* .navbar-nav {
+  background-color: blue;
+} */

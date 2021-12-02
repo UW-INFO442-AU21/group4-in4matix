@@ -1,6 +1,39 @@
+import './Types.css';
+
 function Type5() {
   return(
-    <h1>This is Imposter Syndrome Type 5 - Expert!</h1>
+    <div>
+      <h1>Elastigirl - The Expert</h1>
+      <h2>Overview</h2>
+        <p1>
+        </p1>
+        <div className="float-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      <h2>General Tips</h2>
+        <ul>
+          <li>
+          </li>
+          <li>
+          </li>
+          <li>
+          </li>
+        </ul>
+      <h2>Resources</h2>
+        <ul>
+          <li>
+            <a href=""></a>
+          </li>
+          <li>
+            <a href=""></a>
+          </li>
+        </ul>
+      <h2>Quotes</h2>
+        <p>
+    
+        </p>
+        <p></p>
+    </div>
   )
 }
 

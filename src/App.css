@@ -44,13 +44,32 @@ h1 {
 }
 
 /* Paragraph style */
-p {
+p.center {
   text-align: center;
-  margin-left: 12em;
-  margin-right: 12em; 
+  margin-left: 8em;
+  margin-right: 8em; 
 }
 
 /* makes text orange */
 p.orange {
   color: chocolate;
+}
+
+/* Additional elements for footer styling */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+  opacity: 0.5;
 }

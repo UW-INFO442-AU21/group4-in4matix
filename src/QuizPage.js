@@ -26,8 +26,8 @@ function QuizPage(props) {
       return(
         <div>
           <p>Thank you for taking our quiz. Would you like to take it again?</p>
-          <Button variant="warning" onClick={resetResults}>Retake quiz</Button>
-          <Link className="btn btn-danger" role="button" to="/group4-in4matix/results"> 
+          <Button aria-label="Retake quiz" variant="warning" onClick={resetResults}>Retake quiz</Button>
+          <Link aria-label="View results of quiz" className="btn btn-danger" role="button" to="/group4-in4matix/results"> 
                 View Results
               </Link>
 

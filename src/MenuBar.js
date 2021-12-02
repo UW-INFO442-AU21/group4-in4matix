@@ -19,7 +19,7 @@ function MenuBar() {
         <Container>
           <Navbar.Brand href="/group4-in4matix">Be Incredible</Navbar.Brand>
           <Nav className="me-auto">
-            <NavLink to="/group4-in4matix" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Home</NavLink>
+            {/* <NavLink to="/group4-in4matix" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Home</NavLink> */}
             <NavLink aria-label="Take the quiz" to="/group4-in4matix/quiz" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Quiz</NavLink>
             <NavLink aria-label="View quiz results" to="/group4-in4matix/results" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Results</NavLink>
             {/* the nav link is replaced by a dropdown to navigate imposter types */}

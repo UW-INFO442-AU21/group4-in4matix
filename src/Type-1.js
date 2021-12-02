@@ -22,7 +22,8 @@ function Type1() {
             But that’s neither productive nor healthy. Owning and celebrating achievements is essential if you 
             want to avoid burnout, find contentment, and cultivate self-confidence.
           </li>
-          <li>Learn to take your mistakes in stride, viewing them as a natural part of the process.
+          <li>
+            Learn to take your mistakes in stride, viewing them as a natural part of the process.
           </li>
           <li>
             In addition, push yourself to act before you’re ready. Force yourself to start the project you’ve
@@ -51,7 +52,7 @@ function Type1() {
            particular set of reasons."
         </blockquote>
         <cite>
-          — Natalie Portman, Harvard Commencement 2015
+          — Natalie Portman, Academy Award Winning Actress
         </cite>
     </div>
   )

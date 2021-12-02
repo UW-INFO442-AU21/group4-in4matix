@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/group4-in4matix/static/css/main.1892bcd9.chunk.css",
-    "main.js": "/group4-in4matix/static/js/main.224270fc.chunk.js",
-    "main.js.map": "/group4-in4matix/static/js/main.224270fc.chunk.js.map",
-    "runtime-main.js": "/group4-in4matix/static/js/runtime-main.4a96efa9.js",
-    "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.4a96efa9.js.map",
+    "main.js": "/group4-in4matix/static/js/main.f9019bb5.chunk.js",
+    "main.js.map": "/group4-in4matix/static/js/main.f9019bb5.chunk.js.map",
+    "runtime-main.js": "/group4-in4matix/static/js/runtime-main.877887ac.js",
+    "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.877887ac.js.map",
     "static/css/2.1c40fa89.chunk.css": "/group4-in4matix/static/css/2.1c40fa89.chunk.css",
-    "static/js/2.082d23cb.chunk.js": "/group4-in4matix/static/js/2.082d23cb.chunk.js",
-    "static/js/2.082d23cb.chunk.js.map": "/group4-in4matix/static/js/2.082d23cb.chunk.js.map",
-    "static/js/3.8b86a109.chunk.js": "/group4-in4matix/static/js/3.8b86a109.chunk.js",
-    "static/js/3.8b86a109.chunk.js.map": "/group4-in4matix/static/js/3.8b86a109.chunk.js.map",
+    "static/js/2.b0b30765.chunk.js": "/group4-in4matix/static/js/2.b0b30765.chunk.js",
+    "static/js/2.b0b30765.chunk.js.map": "/group4-in4matix/static/js/2.b0b30765.chunk.js.map",
+    "static/js/3.98ad99a5.chunk.js": "/group4-in4matix/static/js/3.98ad99a5.chunk.js",
+    "static/js/3.98ad99a5.chunk.js.map": "/group4-in4matix/static/js/3.98ad99a5.chunk.js.map",
     "index.html": "/group4-in4matix/index.html",
     "static/css/2.1c40fa89.chunk.css.map": "/group4-in4matix/static/css/2.1c40fa89.chunk.css.map",
     "static/css/main.1892bcd9.chunk.css.map": "/group4-in4matix/static/css/main.1892bcd9.chunk.css.map",
-    "static/js/2.082d23cb.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.082d23cb.chunk.js.LICENSE.txt",
+    "static/js/2.b0b30765.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.b0b30765.chunk.js.LICENSE.txt",
     "static/media/dash.a423512c.svg": "/group4-in4matix/static/media/dash.a423512c.svg",
     "static/media/edna.14abb82d.svg": "/group4-in4matix/static/media/edna.14abb82d.svg",
     "static/media/elastigirl.22ca08ab.svg": "/group4-in4matix/static/media/elastigirl.22ca08ab.svg",
@@ -28,10 +28,10 @@
     "static/media/violet.7623a078.svg": "/group4-in4matix/static/media/violet.7623a078.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a96efa9.js",
+    "static/js/runtime-main.877887ac.js",
     "static/css/2.1c40fa89.chunk.css",
-    "static/js/2.082d23cb.chunk.js",
+    "static/js/2.b0b30765.chunk.js",
     "static/css/main.1892bcd9.chunk.css",
-    "static/js/main.224270fc.chunk.js"
+    "static/js/main.f9019bb5.chunk.js"
   ]
 }

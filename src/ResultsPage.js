@@ -101,7 +101,7 @@ function topResult(results) {
       <h2>You got {topName}!</h2>
       <p>Click the button to see how you and {topName} can work to defeat imposter syndrome. To learn more about the other imposter types, go to the corresponding tab on the dropdown menu.</p>
       <div>
-      <Link aria-label="Information about {topName} className="btn btn-primary" role="button" to={path}> 
+      <Link aria-label="Information about {topName}" className="btn btn-primary" role="button" to={path}> 
         {topName}
       </Link>
       </div>

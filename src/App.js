@@ -39,11 +39,12 @@ function App() {
           <Route path="/group4-in4matix/type-3"> <Type3 /> </Route>
           <Route path="/group4-in4matix/type-4"> <Type4 /> </Route>
           <Route path="/group4-in4matix/type-5"> <Type5 /> </Route>
-          <Route path="/group4-in4matix"> <HomePage /> </Route>
+          {/* <Route path="/group4-in4matix"> <HomePage /> </Route> */}
+          <Route path="/"> <HomePage /> </Route>
         </Switch>
       </div>
 
-      <footer>
+      <footer aria-label="Be Incredible metadata">
         <p>&copy; 2021 University of Washington. INFO 442: IN4MATIX</p>
       </footer>
     </div>

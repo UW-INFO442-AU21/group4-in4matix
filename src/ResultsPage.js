@@ -50,6 +50,7 @@ function contentToRender(results) {
             <div className="pieChart flex-item">
               {renderChart(results)}
             </div>
+
         </div>
         <p>DISCLAIMER: This is not medical advice. These results are meant to be used as a general guideline.</p>
       </div>
@@ -59,7 +60,7 @@ function contentToRender(results) {
     return(
       <div>
         <p>You have not taken the quiz.</p>
-        <Link className="btn btn-danger" role="button" to="/group4-in4matix/quiz">
+        <Link aria-label="Take the quiz" className="btn btn-success" role="button" to="/group4-in4matix/quiz">
                 Take the Quiz!
         </Link>
       </div>
@@ -99,8 +100,8 @@ function topResult(results) {
     <div className="text-center">
       <h2>You got {topName}!</h2>
       <p>Click the button to see how you and {topName} can work to defeat imposter syndrome. To learn more about the other imposter types, go to the corresponding tab on the dropdown menu.</p>
-      <div >
-      <Link className="btn btn-primary" role="button" to={path}> 
+      <div>
+      <Link aria-label="Information about {topName} className="btn btn-primary" role="button" to={path}> 
         {topName}
       </Link>
       </div>

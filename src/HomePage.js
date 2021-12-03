@@ -33,7 +33,7 @@ function HomePage() {
       <br></br>
       <br></br>
       <div className="text-center">
-        <Link className="btn btn-danger" role="button" to="/group4-in4matix/quiz"> 
+        <Link aria-label="Take the quiz" className="btn btn-danger" role="button" to="/group4-in4matix/quiz"> 
           Take the quiz here!
         </Link>
       </div>

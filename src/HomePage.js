@@ -1,19 +1,20 @@
 import jackjack from './img/jack-jack.svg';
 import incrediblesLogo from './img/incredibles-logo.svg';
 import './HomePage.css';
+import './Responsive.css';
 import 'animate.css';
 import { Link } from 'react-router-dom';
 
 function HomePage() {
   return(
-    <div>
+    <div className="content">
       <img className="jackjack left" src={jackjack} alt="logo" />
       <img className="jackjack right" src={jackjack} alt="logo" />
       <h1>
         Mission Statement
       </h1>
       {/* <img className="animate__animated animate__rotateInDownLeft animate_slower jackjack" src={jackjack} alt="logo" /> */}
-      <p className="center">
+      <p>
         Imposter Syndrome describes feelings of inadequacy and self-doubt regardless of experience and education.
         Our research suggests that this is a common feeliing for many, particularly for gender
         minorities pursuing a career in tech. Be Incredible seeks to help users explore
@@ -22,7 +23,7 @@ function HomePage() {
       <h1>
         Quiz Overview
       </h1>
-      <p className="center">
+      <p>
         Experts have determined that there are five main archetypes of imposter syndrome. 
         Be Incredible includes a brief quiz to help you identify which (if any) of the types apply
         to you. Take this quiz to learn more about yourself, the experiences of others like you,

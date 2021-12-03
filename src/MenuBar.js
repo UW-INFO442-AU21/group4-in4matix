@@ -26,10 +26,11 @@ function MenuBar() {
             {/* <Nav.Link >Types of Imposter Syndrome</Nav.Link> */}
 
             <Dropdown>
+              
               <Dropdown.Toggle aria-label="Types of imposter syndrome" className="color-dropdown" id="dropdown-button-dark-example1" variant="secondary">
-                Types of Imposter Syndrome
+                <div className="dropdown-name-full">Types of Imposter Syndrome</div>
+                <div className="dropdown-name-short">Types</div>
               </Dropdown.Toggle>
-
               <Dropdown.Menu className="dropdown" variant="dark">
                 <Dropdown.Item>
                   {/* <NavLink to="/group4-in4matix/type-1" className="nav-link" id="nav-li" activeClassName={"activeLink"}>Perfectionist</NavLink> */}

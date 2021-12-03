@@ -1,0 +1,22 @@
+.btn-pad{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+/*these buttons are wack, right side of view
+results pad is strangely larger than other side*/
+
+
+.btns{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+
+    .instructions{
+        text-align: center;
+    }
+
+}

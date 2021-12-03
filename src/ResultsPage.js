@@ -44,20 +44,17 @@ function hasTakenQuiz(results) {
 function contentToRender(results) {
   if (hasTakenQuiz(results)) {
     return(
-      <div>
-        <p>Here are your results! We want to remind you that these results are meant to be used as a guideline.</p> {/*Or a similar disclaimer*/}
-        <p>To learn more about each imposter syndrome type, please visit the corresponding tab in the menu bar.</p>
-
+      <div className="content">
         <div className="flex-container">
-          <div className="flex-item pieChart">
-            {renderChart(results)}
-          </div>
-          <div>
-            {topResult(results)}
-            {/* <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p> */}
-          </div>
+          <span className="flex-item top-result">{topResult(results)}</span>
+            <div className="pieChart flex-item">
+              {renderChart(results)}
+            </div>
+
         </div>
+        <p>DISCLAIMER: This is not medical advice. These results are meant to be used as a general guideline.</p>
       </div>
+      
     );
   } else {
     return(
@@ -100,12 +97,14 @@ function topResult(results) {
   }
 
   return(
-    <div  className="flex-item top-result">
-      <h2>You have the most in common with {topName}!</h2>
-      <p>Click the button to see how you and {topName} can work to defeat imposter syndrome.</p>
-      <Link aria-label="Information about {topName}" className="btn btn-success" role="button" to={path}> 
+    <div className="text-center">
+      <h2>You got {topName}!</h2>
+      <p>Click the button to see how you and {topName} can work to defeat imposter syndrome. To learn more about the other imposter types, go to the corresponding tab on the dropdown menu.</p>
+      <div>
+      <Link aria-label="Information about {topName} className="btn btn-primary" role="button" to={path}> 
         {topName}
       </Link>
+      </div>
     </div>
   )
 }
@@ -139,9 +138,9 @@ function ResultsPage(props) {
 
   return(
     <div className="results-page">
-      <h1 className="heading-1">Imposter Syndrome Results</h1>
+      <h1>Imposter Syndrome Results</h1>
 
-        <div>{contentToRender(results)}</div> 
+      {contentToRender(results)} 
 
       {/* <p>The user has {hasTakenQuiz() ? 'taken' : 'not taken'} the quiz.</p>
       <p>{hasTakenQuiz() ? JSON.stringify(results) : ''}</p> */}

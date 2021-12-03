@@ -2,30 +2,28 @@
 .flex-container { /* my flexbox container class */
     display: flex;
     padding: 0.5em;
+    flex-direction: column;
 }
+
+h2, p{
+    text-align: center;
+}
+
 
 .pieChart{
-    flex-grow: 2;
+    flex-shrink: 0; /* do not shrink if items overflow container */
+    flex-basis: 66%; /* take up 66% of parent initially */
 }
 
-.results-page{
-    margin: 1.5em;
+@media (min-width:786px){
+    .flex-container {
+        flex-direction: row;
+    }
+
+
+    h2, p{
+        text-align: left;
+    }
+
 }
-
-/* .top-result { 
-    flex-wrap: wrap;
-    flex-shrink: 3;
-    overflow-wrap: break-word;
-    hyphens: auto;
-    flex-basis: 50%;
-    flex-shrink: 30;
-} */
-
-
-
-/* .flex-item {
-    /*flex-grow: 1; /* get 1 share of extra space */
-    /*flex-shrink: 0;  do not shrink if items overflow container */
-   /*flex-basis: 33%;  take up 33% of parent initially 
-} */
 

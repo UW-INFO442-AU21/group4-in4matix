@@ -3,7 +3,7 @@ import './Types.css';
 
 function Type1() {
   return(
-    <div>
+    <div className="content">
       <h1>Violet - The Perfectionist</h1>
       <img className="page-image" src={perfectionist} alt="picture of pefectionist"/>
       <h2>Overview</h2>

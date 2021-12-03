@@ -1,4 +1,40 @@
 .float-video {
-    float: right;
+    float: center;
     margin: 1em;
+}
+
+
+.page-image{
+    height:auto;
+    max-width:50%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+@media (min-width: 600px) {
+
+
+}
+@media (min-width: 768px) {
+
+    .page-image{
+        max-width: 40%;
+    }
+ 
+}
+  
+@media (min-width: 992px) {
+
+    .float-video{
+        float:right;
+    }
+
+    .page-image{
+        max-width: 30%;
+    }
+
 }

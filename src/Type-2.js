@@ -12,7 +12,7 @@ function Type2() {
           This person may feel inadequate relative to colleagues and continue to push themselves as hard as possible,
           regardless of the consequences on mental, physical and emotional health.
         </p1>
-        <p1></p1>
+        <pre></pre>
         <div className="float-video">
           <iframe aria-label="Superhero overview" width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>

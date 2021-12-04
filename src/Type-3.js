@@ -14,6 +14,7 @@ function Type3() {
           feel unworthy, guilty and shameful if they cannot easily 
           complete a task or achieve a goal on their first go. 
         </p1>
+        <p1></p1>
         <div className="float-video">
           <iframe aria-label="Genius overview" width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>

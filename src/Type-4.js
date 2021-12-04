@@ -13,6 +13,7 @@ function Type4() {
           are not as competent as themselves or that they must prove their own 
           worth through their productivity.
         </p1>
+        <p1></p1>
         <div className="float-video">
           <iframe aria-label="Soloist overview" width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>

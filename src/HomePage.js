@@ -8,12 +8,9 @@ import { Link } from 'react-router-dom';
 function HomePage() {
   return(
     <div className="content">
-      {/* <img className="jackjack left" src={jackjack} alt="logo" /> */}
-      {/* <img className="jackjack right" src={jackjack} alt="logo" /> */}
       <h1>
         Mission Statement
       </h1>
-      {/* <img className="animate__animated animate__rotateInDownLeft animate_slower jackjack" src={jackjack} alt="logo" /> */}
       <p>
         Imposter Syndrome describes feelings of inadequacy and self-doubt regardless of experience and education.
         Our research suggests that this is a common feeliing for many, particularly for gender

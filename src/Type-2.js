@@ -5,7 +5,7 @@ function Type2() {
   return(
     <div className=" content">
       <h1>Mr. Incredible - The Superhero</h1>
-      <img className="page-image" src={superhero} alt="picture of superhero"/>
+      <img className="page-image" src={superhero} alt="superhero icon"/>
       <h2>Overview</h2>
         <p1>
           The superwoman/man represents a person with imposter syndrome that often struggles with work addiction.

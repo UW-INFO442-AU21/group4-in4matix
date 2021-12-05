@@ -5,7 +5,7 @@ function Type1() {
   return(
     <div className="content">
       <h1>Violet - The Perfectionist</h1>
-      <img className="page-image" src={perfectionist} alt="picture of pefectionist"/>
+      <img className="page-image" src={perfectionist} alt="pefectionist icon"/>
       <h2>Overview</h2>
         <p1>
           The perfectionist represents a person with imposter syndrome that strives to be their absolute 

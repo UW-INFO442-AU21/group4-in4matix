@@ -54,7 +54,7 @@ function QuizContent(props) {
         } else if (item.indexLabel === "Mr. Incredible") {
           item.y = sh;
           item.name = "Superhuman";
-        } else if (item.indexLabel === "Elastagirl") {
+        } else if (item.indexLabel === "Elastigirl") {
           item.y = e;
           item.name = "Expert";
         } else if (item.indexLabel === "Edna Mode") {
@@ -74,7 +74,7 @@ function QuizContent(props) {
     var currentResults = [{"y":p,"indexLabel":"Violet","name":"Perfectionist"},
                           {"y":s,"indexLabel":"Dash", "name":"Soloist"},
                           {"y":sh,"indexLabel":"Mr. Incredible", "name":"Superhuman"},
-                          {"y":e,"indexLabel":"Elastagirl", "name":"Expert"},
+                          {"y":e,"indexLabel":"Elastigirl", "name":"Expert"},
                           {"y":g,"indexLabel":"Edna Mode","name":"Genius"},
                           {"y":n,"indexLabel":"None", "name":"N/A"}];
 

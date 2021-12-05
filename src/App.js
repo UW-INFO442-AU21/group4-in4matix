@@ -17,7 +17,7 @@ function App() {
   const freshResults = [{"y":0,"indexLabel":"Violet"},
                         {"y":0,"indexLabel":"Dash"},
                         {"y":0,"indexLabel":"Mr. Incredible"},
-                        {"y":0,"indexLabel":"Elastagirl"},
+                        {"y":0,"indexLabel":"Elastigirl"},
                         {"y":0,"indexLabel":"Edna Mode"},
                         {"y":0,"indexLabel":"None"}];
 

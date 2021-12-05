@@ -5,7 +5,7 @@ function Type3() {
   return(
     <div className=" content">
       <h1>Edna Mode - The Genius</h1>
-      <img className="page-image" src={genius} alt="picture of genius"/>
+      <img className="page-image" src={genius} alt="genius icon"/>
       <h2>Overview</h2>
         <p1>
           “The natural genius represents a person with imposter syndrome 

@@ -5,7 +5,7 @@ function Type4() {
   return(
     <div className=" content">
       <h1>Dash - The Soloist</h1>
-      <img className="page-image" src={soloist} alt="picture of soloist"/>
+      <img className="page-image" src={soloist} alt="soloist icon"/>
       <h2>Overview</h2>
         <p1>
           The soloist represents a person with imposter syndrome that has extreme 

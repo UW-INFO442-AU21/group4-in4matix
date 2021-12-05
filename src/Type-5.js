@@ -5,7 +5,7 @@ function Type5() {
   return(
     <div className=" content">
       <h1>Elastigirl - The Expert</h1>
-      <img className="page-image" src={expert} alt="picture of expert"/>
+      <img className="page-image" src={expert} alt="expert icon"/>
       <h2>Overview</h2>
         <p1>
           The expert represents a person with imposter syndrome that never

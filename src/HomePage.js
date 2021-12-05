@@ -1,4 +1,3 @@
-// import jackjack from './img/jack-jack.svg';
 import incrediblesLogo from './img/incredibles-logo.svg';
 import './HomePage.css';
 import './Responsive.css';

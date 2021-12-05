@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/group4-in4matix/static/css/main.1892bcd9.chunk.css",
-    "main.js": "/group4-in4matix/static/js/main.8c9178cc.chunk.js",
-    "main.js.map": "/group4-in4matix/static/js/main.8c9178cc.chunk.js.map",
-    "runtime-main.js": "/group4-in4matix/static/js/runtime-main.877887ac.js",
-    "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.877887ac.js.map",
+    "main.css": "/group4-in4matix/static/css/main.01d650e3.chunk.css",
+    "main.js": "/group4-in4matix/static/js/main.97373e22.chunk.js",
+    "main.js.map": "/group4-in4matix/static/js/main.97373e22.chunk.js.map",
+    "runtime-main.js": "/group4-in4matix/static/js/runtime-main.2030fb7d.js",
+    "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.2030fb7d.js.map",
     "static/css/2.1c40fa89.chunk.css": "/group4-in4matix/static/css/2.1c40fa89.chunk.css",
-    "static/js/2.6db6cf18.chunk.js": "/group4-in4matix/static/js/2.6db6cf18.chunk.js",
-    "static/js/2.6db6cf18.chunk.js.map": "/group4-in4matix/static/js/2.6db6cf18.chunk.js.map",
-    "static/js/3.98ad99a5.chunk.js": "/group4-in4matix/static/js/3.98ad99a5.chunk.js",
-    "static/js/3.98ad99a5.chunk.js.map": "/group4-in4matix/static/js/3.98ad99a5.chunk.js.map",
+    "static/js/2.837312a3.chunk.js": "/group4-in4matix/static/js/2.837312a3.chunk.js",
+    "static/js/2.837312a3.chunk.js.map": "/group4-in4matix/static/js/2.837312a3.chunk.js.map",
+    "static/js/3.0d603a0c.chunk.js": "/group4-in4matix/static/js/3.0d603a0c.chunk.js",
+    "static/js/3.0d603a0c.chunk.js.map": "/group4-in4matix/static/js/3.0d603a0c.chunk.js.map",
     "index.html": "/group4-in4matix/index.html",
     "static/css/2.1c40fa89.chunk.css.map": "/group4-in4matix/static/css/2.1c40fa89.chunk.css.map",
-    "static/css/main.1892bcd9.chunk.css.map": "/group4-in4matix/static/css/main.1892bcd9.chunk.css.map",
-    "static/js/2.6db6cf18.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.6db6cf18.chunk.js.LICENSE.txt",
+    "static/css/main.01d650e3.chunk.css.map": "/group4-in4matix/static/css/main.01d650e3.chunk.css.map",
+    "static/js/2.837312a3.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.837312a3.chunk.js.LICENSE.txt",
     "static/media/dash.a423512c.svg": "/group4-in4matix/static/media/dash.a423512c.svg",
     "static/media/edna.14abb82d.svg": "/group4-in4matix/static/media/edna.14abb82d.svg",
     "static/media/elastigirl.22ca08ab.svg": "/group4-in4matix/static/media/elastigirl.22ca08ab.svg",
     "static/media/expert.0221d9c6.svg": "/group4-in4matix/static/media/expert.0221d9c6.svg",
     "static/media/genius.6f0775ec.svg": "/group4-in4matix/static/media/genius.6f0775ec.svg",
     "static/media/incredibles-logo.37ca871e.svg": "/group4-in4matix/static/media/incredibles-logo.37ca871e.svg",
-    "static/media/jack-jack.99d62186.svg": "/group4-in4matix/static/media/jack-jack.99d62186.svg",
     "static/media/mr-incredible.39bd6d2c.svg": "/group4-in4matix/static/media/mr-incredible.39bd6d2c.svg",
     "static/media/perfectionist.a54eae90.svg": "/group4-in4matix/static/media/perfectionist.a54eae90.svg",
     "static/media/soloist.6e973ae6.svg": "/group4-in4matix/static/media/soloist.6e973ae6.svg",
@@ -28,10 +27,10 @@
     "static/media/violet.7623a078.svg": "/group4-in4matix/static/media/violet.7623a078.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.877887ac.js",
+    "static/js/runtime-main.2030fb7d.js",
     "static/css/2.1c40fa89.chunk.css",
-    "static/js/2.6db6cf18.chunk.js",
-    "static/css/main.1892bcd9.chunk.css",
-    "static/js/main.8c9178cc.chunk.js"
+    "static/js/2.837312a3.chunk.js",
+    "static/css/main.01d650e3.chunk.css",
+    "static/js/main.97373e22.chunk.js"
   ]
 }

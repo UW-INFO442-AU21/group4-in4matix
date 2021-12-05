@@ -5,16 +5,16 @@ function Type2() {
   return(
     <div className=" content">
       <h1>Mr. Incredible - The Superhero</h1>
-      <img className="page-image" src={superhero} alt="picture of superhero"/>
+      <img className="page-image" src={superhero} alt="superhero icon"/>
       <h2>Overview</h2>
-        <p1>
+        <p>
           The superwoman/man represents a person with imposter syndrome that often struggles with work addiction.
           This person may feel inadequate relative to colleagues and continue to push themselves as hard as possible,
           regardless of the consequences on mental, physical and emotional health.
-        </p1>
+        </p>
         <pre></pre>
         <div className="float-video">
-          <iframe aria-label="Superhero overview" width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe aria-label="Superhero overview" width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
       <h2>General Tips</h2>
         <ul>

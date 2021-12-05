@@ -5,17 +5,17 @@ function Type4() {
   return(
     <div className=" content">
       <h1>Dash - The Soloist</h1>
-      <img className="page-image" src={soloist} alt="picture of soloist"/>
+      <img className="page-image" src={soloist} alt="soloist icon"/>
       <h2>Overview</h2>
-        <p1>
+        <p>
           The soloist represents a person with imposter syndrome that has extreme 
           difficulties asking others for help. Perhaps they may feel that others 
           are not as competent as themselves or that they must prove their own 
           worth through their productivity.
-        </p1>
+        </p>
         <pre></pre>
         <div className="float-video">
-          <iframe aria-label="Soloist overview" width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe aria-label="Soloist overview" width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
       <h2>General Tips</h2>
         <ul>

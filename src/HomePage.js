@@ -1,4 +1,4 @@
-import jackjack from './img/jack-jack.svg';
+// import jackjack from './img/jack-jack.svg';
 import incrediblesLogo from './img/incredibles-logo.svg';
 import './HomePage.css';
 import './Responsive.css';
@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 function HomePage() {
   return(
     <div className="content">
-      <img className="jackjack left" src={jackjack} alt="logo" />
-      <img className="jackjack right" src={jackjack} alt="logo" />
+      {/* <img className="jackjack left" src={jackjack} alt="logo" /> */}
+      {/* <img className="jackjack right" src={jackjack} alt="logo" /> */}
       <h1>
         Mission Statement
       </h1>

@@ -7,14 +7,14 @@ function Type1() {
       <h1>Violet - The Perfectionist</h1>
       <img className="page-image" src={perfectionist} alt="pefectionist icon"/>
       <h2>Overview</h2>
-        <p1>
+        <p>
           The perfectionist represents a person with imposter syndrome that strives to be their absolute 
           best, no matter the cost to their mental health. These individuals may be identified as typical 
           “perfectionists” who set impossibly high standards for themselves.
-        </p1>
+        </p>
         <pre></pre>
         <div className="float-video">
-          <iframe aria-label="Perfectionist overview" width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe aria-label="Perfectionist overview" width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
       <h2>General Tips</h2>
         <ul>

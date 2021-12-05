@@ -7,16 +7,16 @@ function Type3() {
       <h1>Edna Mode - The Genius</h1>
       <img className="page-image" src={genius} alt="genius icon"/>
       <h2>Overview</h2>
-        <p1>
+        <p>
           “The natural genius represents a person with imposter syndrome 
           that not only struggles with perfectionism but also sets out 
           to achieve lofty goals on their first try. These individuals 
           feel unworthy, guilty and shameful if they cannot easily 
           complete a task or achieve a goal on their first go. 
-        </p1>
+        </p>
         <pre></pre>
         <div className="float-video">
-          <iframe aria-label="Genius overview" width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe aria-label="Genius overview" width="560" height="315" src="https://www.youtube.com/embed/MFd7I4iWeTg?start=80" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
       <h2>General Tips</h2>
         <ul>

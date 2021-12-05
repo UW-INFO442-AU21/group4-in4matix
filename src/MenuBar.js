@@ -4,6 +4,7 @@ import mrIncredible from './img/mr-incredible.svg';
 import elastigirl from './img/elastigirl.svg';
 import violet from './img/violet.svg';
 import edna from './img/edna.svg';
+import incrediblesLogo from './img/incredibles-logo.svg';
 import './MenuBar.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
@@ -15,7 +16,7 @@ function MenuBar() {
   return (
     <div>
       <Navbar aria-label="Be Incredible" className="color-nav" variant="dark"> { /*change to incredibles scheme */ }
-      <img className="nav-image" src={jackjack} alt="logo" />
+      <img className="nav-image" src={incrediblesLogo} alt="logo" />
         <Container>
           <Navbar.Brand href="/group4-in4matix">Be Incredible</Navbar.Brand>
           <Nav className="me-auto">

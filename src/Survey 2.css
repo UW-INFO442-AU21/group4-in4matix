@@ -1,0 +1,9 @@
+.sv_next_btn{ 
+    background-color: green;
+    font-weight: bold;
+  }
+
+div.sv_nav > input {
+    background-color: green;
+    font-weight: bold;
+}

@@ -58,8 +58,8 @@ function contentToRender(results) {
     );
   } else {
     return(
-      <div>
-        <p>You have not taken the quiz.</p>
+      <div className="center">
+        <p className="center">You have not taken the quiz.</p>
         <Link aria-label="Take the quiz" className="btn btn-success" role="button" to="/group4-in4matix/quiz">
                 Take the Quiz!
         </Link>
@@ -101,7 +101,7 @@ function topResult(results) {
       <h2>You got {topName}!</h2>
       <p>Click the button to see how you and {topName} can work to defeat imposter syndrome. To learn more about the other imposter types, go to the corresponding tab on the dropdown menu.</p>
       <div>
-      <Link aria-label="Information about {topName}" className="btn btn-primary" role="button" to={path}> 
+      <Link aria-label="Information about {topName}" className="btn btn-success" role="button" to={path}> 
         {topName}
       </Link>
       </div>

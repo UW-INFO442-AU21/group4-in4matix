@@ -30,7 +30,7 @@ function QuizPage(props) {
           <p className="center">Thank you for taking our quiz. Would you like to take it again?</p>
           <div className="btns text-center">
             <Button aria-label="Retake quiz" className="btn-pad" variant="warning" onClick={resetResults}>Retake quiz</Button>
-            <Link aria-label="View results of quiz" className="btn btn-danger btn-pad" role="button" to="/group4-in4matix/results"> 
+            <Link aria-label="View results of quiz" className="btn btn-success btn-pad" role="button" to="/group4-in4matix/results"> 
                   View Results
             </Link>
             </div>

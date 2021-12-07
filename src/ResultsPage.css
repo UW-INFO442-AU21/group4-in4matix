@@ -9,6 +9,9 @@ h2, p{
     text-align: center;
 }
 
+.center {
+    text-align: center;
+}
 
 .pieChart{
     flex-shrink: 0; /* do not shrink if items overflow container */

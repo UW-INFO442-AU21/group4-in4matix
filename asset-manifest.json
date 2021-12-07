@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/group4-in4matix/static/css/main.01d650e3.chunk.css",
-    "main.js": "/group4-in4matix/static/js/main.97373e22.chunk.js",
-    "main.js.map": "/group4-in4matix/static/js/main.97373e22.chunk.js.map",
+    "main.css": "/group4-in4matix/static/css/main.3adae5b4.chunk.css",
+    "main.js": "/group4-in4matix/static/js/main.836ab168.chunk.js",
+    "main.js.map": "/group4-in4matix/static/js/main.836ab168.chunk.js.map",
     "runtime-main.js": "/group4-in4matix/static/js/runtime-main.2030fb7d.js",
     "runtime-main.js.map": "/group4-in4matix/static/js/runtime-main.2030fb7d.js.map",
     "static/css/2.1c40fa89.chunk.css": "/group4-in4matix/static/css/2.1c40fa89.chunk.css",
-    "static/js/2.837312a3.chunk.js": "/group4-in4matix/static/js/2.837312a3.chunk.js",
-    "static/js/2.837312a3.chunk.js.map": "/group4-in4matix/static/js/2.837312a3.chunk.js.map",
+    "static/js/2.7ffba2ff.chunk.js": "/group4-in4matix/static/js/2.7ffba2ff.chunk.js",
+    "static/js/2.7ffba2ff.chunk.js.map": "/group4-in4matix/static/js/2.7ffba2ff.chunk.js.map",
     "static/js/3.0d603a0c.chunk.js": "/group4-in4matix/static/js/3.0d603a0c.chunk.js",
     "static/js/3.0d603a0c.chunk.js.map": "/group4-in4matix/static/js/3.0d603a0c.chunk.js.map",
     "index.html": "/group4-in4matix/index.html",
     "static/css/2.1c40fa89.chunk.css.map": "/group4-in4matix/static/css/2.1c40fa89.chunk.css.map",
-    "static/css/main.01d650e3.chunk.css.map": "/group4-in4matix/static/css/main.01d650e3.chunk.css.map",
-    "static/js/2.837312a3.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.837312a3.chunk.js.LICENSE.txt",
+    "static/css/main.3adae5b4.chunk.css.map": "/group4-in4matix/static/css/main.3adae5b4.chunk.css.map",
+    "static/js/2.7ffba2ff.chunk.js.LICENSE.txt": "/group4-in4matix/static/js/2.7ffba2ff.chunk.js.LICENSE.txt",
     "static/media/dash.a423512c.svg": "/group4-in4matix/static/media/dash.a423512c.svg",
     "static/media/edna.14abb82d.svg": "/group4-in4matix/static/media/edna.14abb82d.svg",
     "static/media/elastigirl.22ca08ab.svg": "/group4-in4matix/static/media/elastigirl.22ca08ab.svg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.2030fb7d.js",
     "static/css/2.1c40fa89.chunk.css",
-    "static/js/2.837312a3.chunk.js",
-    "static/css/main.01d650e3.chunk.css",
-    "static/js/main.97373e22.chunk.js"
+    "static/js/2.7ffba2ff.chunk.js",
+    "static/css/main.3adae5b4.chunk.css",
+    "static/js/main.836ab168.chunk.js"
   ]
 }

@@ -1,18 +1,24 @@
+/* The main css page used for the app overall */
+
+/* Centers text */
 .App {
   text-align: center;
 }
 
+/* Logo height */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* Adjust's jack-jacks rotation speed, not currently in use */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* The headers used on the main app */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +34,7 @@
   color: #61dafb;
 }
 
+/* Adjust's jack-jacks rotation spinning */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -68,10 +75,12 @@ p.orange {
   min-height: 100vh;
 }
 
+/* ensures content doesn't go off the page or interfere with other content */
 #content-wrap {
   padding-bottom: 3rem;
 }
 
+/* Footer style across the site */
 footer {
   position: absolute;
   bottom: 0;

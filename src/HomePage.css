@@ -1,3 +1,6 @@
+/* CSS used only for the home page */
+
+/* Style for the logo in the upper left */
 .logo {
   display: block;
   margin-left: auto;
@@ -6,12 +9,14 @@
   filter: drop-shadow(5px 5px 5px black);
 }
 
+/* centers the button that routes to the quiz */
 .quiz-link {
   /* display: flex; */
   justify-content: center;
   align-items: center;
 }
 
+/* spinning jack-jack style, not in use currently */
 .jackjack {
   position:absolute;
   display: flex;
@@ -20,12 +25,13 @@
   width: 100px;
   /* height: 6rem; */
 }
-  
+ /* left spinning jack-jack style (makes translucent) not in use currently */ 
 .left {
   opacity: 0.5;
   animation: jackjack-animation-left 5s linear infinite alternate;
 }
 
+/* Limits left jack-jack's spinning, not in use currently */
 @keyframes jackjack-animation-left {
   from {
     /* left: 0; */
@@ -37,11 +43,13 @@
   }
 }
 
+/* right spinning jack-jack style (makes translucent) not in use currently */ 
 .right {
   opacity: 0.5;
   animation: jackjack-animation-right 5s linear infinite alternate;
 }
 
+/* Limits right jack-jack's spinning, not in use currently */
 @keyframes jackjack-animation-right {
   from {
     /* left: 0; */

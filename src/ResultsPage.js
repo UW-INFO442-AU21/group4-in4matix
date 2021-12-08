@@ -6,14 +6,13 @@ import './ResultsPage.css';
 // var CanvasJS = CanvasJSReact.CanvasJS;
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
+// contains the content for the results page
+
 function renderChart(results) {
+  // the main variable that sets up the pie chart. allows for results to be exported!
   const options = {
     exportEnabled: true,
     animationEnabled: true,
-    /*title: {
-      display: false,
-      text: "Imposter Syndrome Results"
-    },*/
     data: [{
       type: "pie",
       startAngle: 75,
@@ -25,6 +24,7 @@ function renderChart(results) {
     }]
   }
 
+  // displays the pie chart
   return(
     <div>
       <CanvasJSChart options={options} />
@@ -32,6 +32,7 @@ function renderChart(results) {
   )
 }
 
+// determines if the quiz has been taken, used in contentToRender
 function hasTakenQuiz(results) {
   for (var i = 0; i < results.length; i++) {
     if (results[i].y !== 0) {
@@ -41,6 +42,9 @@ function hasTakenQuiz(results) {
   return false;
 }
 
+// determines what to display based on if the quiz has been taken which comes from hasTakenQuiz
+// if no, displays the results
+// if yes, prompts the users to take the quiz 
 function contentToRender(results) {
   if (hasTakenQuiz(results)) {
     return(
@@ -82,7 +86,7 @@ function topResult(results) {
     }
   }
 
-  // generate a path to the imposter page for the top character
+  // generate a path to the imposter page for the top character based on results
   var path = "/group4-in4matix/";
   if (topName === "Violet") {
     path += "type-1";
@@ -95,7 +99,7 @@ function topResult(results) {
   } else {
     path += "type-5";
   }
-
+  // displays top result and gives option to go directly to the corresponding type page using topName adjusted above
   return(
     <div className="text-center">
       <h2>You got {topName}!</h2>
@@ -109,32 +113,12 @@ function topResult(results) {
   )
 }
 
+// updates the state variable based on the results, prints result sin the console, and displays content based on contentToRender 
 function ResultsPage(props) {
 
   let results = props.results;
 
   console.log("The results are:", results);
-  
-  // function renderChart() {
-  //   var chart = new CanvasJS.Chart("chartContainer", {
-  //     animationEnabled: true,
-  //     title: {
-  //       text: "Imposter Syndrome Results"
-  //     },
-  //     data: [{
-  //       type: "pie",
-  //       startAngle: 240,
-  //       yValueFormatString: "##0.00\"%\"",
-  //       indexLabel: "{label} {y}",
-  //       dataPoints: results
-  //     }]
-  //   });
-  //   chart.render();
-  // }
-
-  //toolTipContent: "<a href='\"'http://apple.com'\"' target='\"'_blank'\"' >{indexLabel} ({name}) </a>",
-
-  //way to dynamically render top result and link to page
 
   return(
     <div className="results-page">
@@ -149,49 +133,3 @@ function ResultsPage(props) {
 }
 
 export default ResultsPage;
-
-
-// other structure for chart 
-    /*const options = {
-      type: 'pie',
-      data: {
-        datasets: [{
-          data: results //each is an object
-         backgroundColor: [
-            "#F7464A",
-            "#46BFBD",
-            "#FDB45C",
-            "#949FB1",
-            "#4D5360",
-          ],
-          label: 'Imposter Results'
-        }]
-      },
-      /*options: {
-        responsive: true,
-        legend: {
-          position: 'bottom',
-        },
-        title: {
-          display: true,
-          text: 'Imposter Syndrome Results'
-        },
-        animation: {
-          animateScale: true,
-          animateRotate: true
-        },
-        tooltips: {
-          callbacks: {
-            label: function(tooltipItem, data) {
-               var dataset = data.datasets[tooltipItem.datasetIndex];
-              var total = dataset.data.reduce(function(previousValue, currentValue, currentIndex, array) {
-                return previousValue + currentValue;
-              });
-              var currentValue = dataset.data[tooltipItem.index];
-              var precentage = Math.floor(((currentValue/total) * 100)+0.5);
-              return precentage + "%";
-            }
-          }
-        }
-      }
-    };*/

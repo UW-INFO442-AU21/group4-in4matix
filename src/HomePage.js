@@ -4,6 +4,7 @@ import './Responsive.css';
 import 'animate.css';
 import { Link } from 'react-router-dom';
 
+// contains the content on the homepage, including mission statement, quiz overview, and take quiz button
 function HomePage() {
   return(
     <div className="content">

@@ -12,6 +12,7 @@ import Nav from 'react-bootstrap/Nav';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { NavLink } from 'react-router-dom';
 
+// The content for the nav bar on the top of every page
 function MenuBar() {
   return (
     <div>
@@ -76,22 +77,6 @@ function MenuBar() {
           </Nav>
         </Container>
       </Navbar>
-      
-      {/* idea for a menu that can toggle visibility */}
-      {/* <div className="imposter-menu">
-        <Navbar bg="dark" variant="dark">
-          <Container>
-            <Nav className="me-auto">
-              <Nav.Link href="#perfectionist">Perfectionist</Nav.Link>
-              <Nav.Link href="#superperson">Superperson</Nav.Link>
-              <Nav.Link href="#genius">Genius</Nav.Link>
-              <Nav.Link href="#soloist">Soloist</Nav.Link>
-              <Nav.Link href="#expert">Expert</Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar>
-      </div> */}
-
     </div>
   )
 }

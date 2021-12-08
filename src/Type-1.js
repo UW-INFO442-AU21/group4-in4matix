@@ -1,6 +1,7 @@
 import perfectionist from './img/perfectionist.svg';
 import './Types.css';
 
+// Function returns all of page's content
 function Type1() {
   return(
     <div className="content">
@@ -59,4 +60,5 @@ function Type1() {
   )
 }
 
+// Exporting page function to generate page's content 
 export default Type1;

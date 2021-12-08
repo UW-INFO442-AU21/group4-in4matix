@@ -1,6 +1,7 @@
 import soloist from './img/soloist.svg';
 import './Types.css';
 
+// Function returns all of page's content
 function Type4() {
   return(
     <div className=" content">
@@ -59,4 +60,5 @@ function Type4() {
   )
 }
 
+// Exporting page function to generate page's content 
 export default Type4;

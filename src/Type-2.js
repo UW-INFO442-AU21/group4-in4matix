@@ -1,6 +1,7 @@
 import superhero from './img/superhero.svg';
 import './Types.css';
 
+// Function returns all of page's content
 function Type2() {
   return(
     <div className=" content">
@@ -54,4 +55,5 @@ function Type2() {
   )
 }
 
+// Exporting page function to generate page's content 
 export default Type2;

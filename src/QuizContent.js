@@ -1,15 +1,18 @@
 import surveyJSON from './quiz.json';
 import * as Survey from "survey-react";
 import "survey-react/survey.css";
-import './Survey.css';
 
+// Tracks the quiz results and updates the state variable created when the user enters or refreshes the page
 function QuizContent(props) {
 
+  // syncs with the state variable 
   const results = props.results;
   const setResults = props.setResults;
-
+  
+  // style of the quiz (stone = black)
   Survey.StylesManager.applyTheme("stone");
 
+  // the variable used to track quiz results 
   var survey = new Survey.Model(surveyJSON);
 
   // takes complete survey and converts to an array that's compatible with Canvas.js
@@ -38,7 +41,7 @@ function QuizContent(props) {
       } 
     }
 
-    // delayed computation
+    // delayed computation until after survey is complete
     const handleResults = (event) => {
       // create a copy of state and update elements as needed
       // item: the current element of the results array
@@ -70,7 +73,7 @@ function QuizContent(props) {
       setResults(resultsCopy);
 
     }
-
+    // the format the canvas.js needs to display results
     var currentResults = [{"y":p,"indexLabel":"Violet","name":"Perfectionist"},
                           {"y":s,"indexLabel":"Dash", "name":"Soloist"},
                           {"y":sh,"indexLabel":"Mr. Incredible", "name":"Superhuman"},
@@ -83,25 +86,14 @@ function QuizContent(props) {
     return currentResults;
   }
 
-  /*const handleSubmission = (event) => {
-    // console.log(event);
-    setResults(results); // this line triggers an infinte recursive loop
-    // console.log(survey);
-  }*/
-
+  // signals quiz has been complete and starts processing results by calling convertResults
   survey
     .onComplete
     .add(function (sender) {
-      // var mySurvey = sender;
       var surveyData = sender.data;
       console.log("Survey done!");
-      // console.log(survey.data);
-      // console.log(mySurvey);
-      // console.log(surveyData); // same as survey.data, this is likely safer
-      // var results = convertResults(sender.data);
       var quizResults = convertResults(surveyData, results);
       console.log(quizResults);
-      // handleSubmission();
     })
     
   return(

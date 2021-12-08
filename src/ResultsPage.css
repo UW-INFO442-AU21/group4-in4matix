@@ -1,23 +1,29 @@
+/* CSS for just the results page, */
 
+/* establishes the flex box that allows for pretty responsive css */
 .flex-container { /* my flexbox container class */
     display: flex;
     padding: 0.5em;
     flex-direction: column;
 }
 
+/* centers text */
 h2, p{
     text-align: center;
 }
 
+/* centers btn */
 .center {
     text-align: center;
 }
 
+/* manages sizing/responsive styling for the pie chart */
 .pieChart{
     flex-shrink: 0; /* do not shrink if items overflow container */
     flex-basis: 66%; /* take up 66% of parent initially */
 }
 
+/* main responsive CSS for results page */
 @media (min-width:786px){
     .flex-container {
         flex-direction: row;

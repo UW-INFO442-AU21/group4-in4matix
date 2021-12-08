@@ -1,0 +1,4 @@
+Google Chrome, Web: Version 96.0.4664.55
+Google Chrome, Mobile: Version 96.0.4664.94
+
+Errors thrown in the console took top priority for this project. Otherwise, bugs were manually found and logged in GitHub Issues.

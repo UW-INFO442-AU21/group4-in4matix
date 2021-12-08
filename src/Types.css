@@ -1,4 +1,4 @@
-/* the flex container for the video */
+/* Centers and aligns video */
 .float-video {
     position: relative;
     overflow: hidden;
@@ -19,7 +19,7 @@
     height: 100%;
   }
 
-  /* sets initial hieght of top image */
+/* Adjusts image sizes based on screen size */
 .page-image{
     height:auto;
     max-width:50%;
@@ -29,6 +29,7 @@
     margin-right: auto;
 
 }
+
 /* makes image responsive */
 @media (min-width: 768px) {
     .page-image{

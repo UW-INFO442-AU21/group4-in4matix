@@ -1,8 +1,23 @@
 /* Centers and aligns video */
 .float-video {
-    float: center;
-    margin: 1em;
+    position: relative;
+    overflow: hidden;
+    padding-top: 40%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
+
+/* allows the video to be responsive */
+.responsive-iframe {
+    float: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
 
 /* Adjusts image sizes based on screen size */
 .page-image{
@@ -15,17 +30,11 @@
 
 }
 
-/* Adjusts video player size based on screen size */
-@media (min-width: 600px) {
-
-
-}
+/* makes image responsive */
 @media (min-width: 768px) {
-
     .page-image{
         max-width: 40%;
     }
- 
 }
   
 @media (min-width: 992px) {

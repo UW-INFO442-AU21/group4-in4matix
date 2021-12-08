@@ -1,6 +1,7 @@
 import expert from './img/expert.svg';
 import './Types.css';
 
+// Function returns all of page's content
 function Type5() {
   return(
     <div className=" content">
@@ -64,4 +65,5 @@ function Type5() {
   )
 }
 
+// Exporting page function to generate page's content 
 export default Type5;
